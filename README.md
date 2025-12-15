@@ -74,16 +74,16 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 
 | Week | Dates | Topics | Reading |
 |------|-------|--------|---------|
-| 1 | Jan 5 | Intro and bias-variance tradeoff | NS: Intro, 1-3, AS: 1,8 |
-| 2 | Jan 12 | Inference for regression + Multiple regression | NS: 4-8, AS: 2-3 |
-| 3 | Jan 19 | Categorical predictors and interactions | NS: 9-11, AS: 5-7 |
-| 4 | Jan 26 | Assumptions, diagnostics + Nonlinear regression | NS: 9-11, AS: 5-7 |
-| 5 | Feb 2 | Time series regression | NS: 9-11, AS: 5-7 |
-| 6 | Feb 9 | Logistic regression | NS: 12-13, AS: 5-7 |
-| 7 | Feb 16 | Model selection and penalized regression | |
-| 8 | Feb 23 | Trees, ensembles, and neural networks | NS: 12-13, AS: 4, 12-14 |
-| 9 | Mar 2 | Causal inference | NS: 12-13, AS: 4, 12-14 |
-| 10 | Mar 9 | Causal inference | |
+| 1 | Jan 5 | Intro and bias-variance tradeoff | ISL: Ch 1, 2 |
+| 2 | Jan 12 | Inference for regression + Multiple regression | ISL: Ch 3.1-3.3, MM: Ch 2 |
+| 3 | Jan 19 | Categorical predictors and interactions | ISL: Ch 3.6-3.7 |
+| 4 | Jan 26 | Assumptions, diagnostics + Nonlinear regression | ISL: Ch 3.3.3, 7.1-7.4 |
+| 5 | Feb 2 | Time series regression | ISL: Ch 3 (supplemental) |
+| 6 | Feb 9 | Logistic regression | ISL: Ch 4.1-4.3 |
+| 7 | Feb 16 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
+| 8 | Feb 23 | Trees, ensembles, and neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
+| 9 | Mar 2 | Causal inference | MM: Ch 1, ISL: Ch 3.2 |
+| 10 | Mar 9 | Causal inference | MM: Ch 3-5 |
 | 11 | Mar 16 | **Final exam week** | |
 
 ## Outline of Topics
@@ -110,7 +110,7 @@ Code for class:
 - [TBA](code/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 1-3
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 1, 2
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)
 - [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 
@@ -119,7 +119,8 @@ Readings:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 4-8
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.3
+- _Mastering 'Metrics_ (MM) -- Chapter 2
 
 Code for class:
 - [TBA](code/)
@@ -129,7 +130,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 9-11
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.6-3.7
 
 Code for class:
 - [TBA](code/)
@@ -139,7 +140,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 9-11
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3.3, 7.1-7.4
 
 Code for class:
 - [TBA](code/)
@@ -149,7 +150,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 9-11
+- _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
 
 Code for class:
 - [TBA](code/)
@@ -159,7 +160,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 12-13
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
 
 Code for class:
 - [TBA](code/)
@@ -169,7 +170,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL)
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
 
 Code for class:
 - [TBA](code/)
@@ -179,7 +180,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 12-13
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 11.1-11.3
 
 Code for class:
 - [TBA](code/)
@@ -189,8 +190,8 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Mastering 'Metrics_ (MM) -- Joshua D. Angrist and Jörn-Steffen Pischke
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 4, 12-14
+- _Mastering 'Metrics_ (MM) -- Chapters 1-5
+- _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
 
 Code for class:
 - [TBA](code/)
