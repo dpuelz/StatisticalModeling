@@ -88,20 +88,6 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 
 ## Outline of Topics
 
-This is a course on supervised learning. We will cover the following topics:
-
-- Introduction and bias-variance tradeoff
-- Inference for regression
-- Multiple regression
-- Categorical predictors and interactions
-- Assumptions and diagnostics
-- Nonlinear regression
-- Time series regression
-- Logistic regression
-- Model selection and penalized regression
-- Trees, ensembles, and neural networks
-- Causal inference
-
 ### (0) Introduction and Bias-Variance Tradeoff
 
 Slides: [TBA](slides/)
