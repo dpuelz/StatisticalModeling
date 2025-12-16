@@ -58,8 +58,6 @@ There will be 5 quizzes on the Fridays of weeks 2, 4, 6, 8, and 10. The quizzes 
 
 The final exam will be held during the scheduled exam time (week 11 of the course).
 
-- [Final Exam](exams/final_exam.pdf). Week 11.
-
 ## Software
 
 ### Local R (downloadable software on your computer)
