@@ -15,7 +15,10 @@ This course trains students to wield data as both a scientific and predictive to
 
 ## Course Objectives
 
-The objectives are two-fold. First, students will understand how to fit and interpret regression models across a wide array of applications, including high-dimensional predictors, nonlinear relationships, time series, binary outcomes, variable selection and bias-variance considerations. Second, students will learn the specialized application of regression to causal inference--an important cornerstone of econometrics.
+- Understand the fundamentals of statistical modeling and supervised learning
+- Fit and interpret regression models for prediction and inference
+- Apply statistical methods to real-world data using appropriate software
+- Evaluate model performance and understand the bias-variance tradeoff
 
 ## Required Readings
 
@@ -85,7 +88,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | 11 | Mar 16 | **Final exam week** | |
 
 ## Outline of Topics
-
+fd
 ### (0) Introduction and Bias-Variance Tradeoff
 
 Slides: [TBA](slides/)
