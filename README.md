@@ -29,7 +29,8 @@ This course trains students to wield data as both a scientific and predictive to
 
 There will be 5 homework assignments to be turned in via Populi. They will be posted here.
 
-- <span style="color: #999;">Homework 1 (Coming soon)</span>. Due Friday, Jan 16 at 10:00a.
+- [Homework 1](assignments/HW1.pdf). Due Friday, Jan 16 at 10:00a.
+  - Data: [drone_strikes_venezuela.csv](data/drone_strikes_venezuela.csv), [stock_returns.csv](data/stock_returns.csv)
 - <span style="color: #999;">Homework 2 (Coming soon)</span>. Due Friday, Jan 30 at 10:00a.
 - <span style="color: #999;">Homework 3 (Coming soon)</span>. Due Friday, Feb 13 at 10:00a.
 - <span style="color: #999;">Homework 4 (Coming soon)</span>. Due Friday, Feb 27 at 10:00a.
