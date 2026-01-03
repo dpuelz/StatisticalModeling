@@ -29,11 +29,11 @@ This course trains students to wield data as both a scientific and predictive to
 
 There will be 5 homework assignments to be turned in via Populi. They will be posted here.
 
-- [Homework 1](assignments/HW1.pdf). Due Friday, Jan 16 at 10:00a.
-- [Homework 2](assignments/HW2.pdf). Due Friday, Jan 30 at 10:00a.
-- [Homework 3](assignments/HW3.pdf). Due Friday, Feb 13 at 10:00a.
-- [Homework 4](assignments/HW4.pdf). Due Friday, Feb 27 at 10:00a.
-- [Homework 5](assignments/HW5.pdf). Due Friday, Mar 13 at 10:00a.
+- <span style="color: #999;">Homework 1 (Coming soon)</span>. Due Friday, Jan 16 at 10:00a.
+- <span style="color: #999;">Homework 2 (Coming soon)</span>. Due Friday, Jan 30 at 10:00a.
+- <span style="color: #999;">Homework 3 (Coming soon)</span>. Due Friday, Feb 13 at 10:00a.
+- <span style="color: #999;">Homework 4 (Coming soon)</span>. Due Friday, Feb 27 at 10:00a.
+- <span style="color: #999;">Homework 5 (Coming soon)</span>. Due Friday, Mar 13 at 10:00a.
 
 ### Homework Rubric
 
