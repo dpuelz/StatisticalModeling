@@ -76,9 +76,9 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | Week | Dates | Topics | Reading |
 |------|-------|--------|---------|
 | 1 | Jan 5 | Intro and bias-variance tradeoff | ISL: Ch 1, 2 |
-| 2 | Jan 12 | Inference for regression + Multiple regression | ISL: Ch 3.1-3.3, MM: Ch 2 |
-| 3 | Jan 19 | Categorical predictors and interactions | ISL: Ch 3.6-3.7 |
-| 4 | Jan 26 | Assumptions, diagnostics + Nonlinear regression | ISL: Ch 3.3.3, 7.1-7.4 |
+| 2 | Jan 12 | Inference for regression + Multiple regression | ISL: Ch 3.1-3.2, MM: Ch 2 |
+| 3 | Jan 19 | Categorical predictors and interactions | ISL: Ch 3.3 |
+| 4 | Jan 26 | Assumptions, diagnostics + Nonlinear regression | ISL: Ch 3.3, 7.1 |
 | 5 | Feb 2 | Time series regression | ISL: Ch 3 (supplemental) |
 | 6 | Feb 9 | Logistic regression | ISL: Ch 4.1-4.3 |
 | 7 | Feb 16 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
@@ -88,7 +88,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | 11 | Mar 16 | **Final exam week** | |
 
 ## Outline of Topics
-fd
+
 ### (0) Introduction and Bias-Variance Tradeoff
 
 Slides: [TBA](slides/)
@@ -106,7 +106,7 @@ Readings:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.3
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
 - _Mastering 'Metrics_ (MM) -- Chapter 2
 
 Code for class:
@@ -117,7 +117,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.6-3.7
+- _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
 
 Code for class:
 - [TBA](code/)
@@ -127,7 +127,7 @@ Code for class:
 Slides: [TBA](slides/)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3.3, 7.1-7.4
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3, 7.1
 
 Code for class:
 - [TBA](code/)
@@ -172,13 +172,23 @@ Readings:
 Code for class:
 - [TBA](code/)
 
-### (8) Causal Inference
+### (8) Causal Inference (Part 1)
 
 Slides: [TBA](slides/)
 
 Readings:
-- _Mastering 'Metrics_ (MM) -- Chapters 1-5
+- _Mastering 'Metrics_ (MM) -- Chapter 1
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
+
+Code for class:
+- [TBA](code/)
+
+### (9) Causal Inference (Part 2)
+
+Slides: [TBA](slides/)
+
+Readings:
+- _Mastering 'Metrics_ (MM) -- Chapters 3-5
 
 Code for class:
 - [TBA](code/)
