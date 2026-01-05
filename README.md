@@ -68,6 +68,8 @@ The final exam will be held during the scheduled exam time (week 11 of the cours
 
 You will need a local download of R to run our example code and for your assignments. Please install [R](https://cran.rstudio.com) and then [RStudio](https://posit.co/download/rstudio-desktop/) on your own computer (you want the "RStudio Desktop" version). Both are free and work on all platforms. R is the underlying data-analysis program we'll use in this course, while RStudio provides a nice front-end interface to R that makes certain repetitive steps (e.g. loading data, saving plots) very simple.
 
+**Getting started with R**: If you're new to R, check out [Introduction to R](code/intro_to_R.R) for basic examples and concepts.
+
 ## Course Cadence
 
 There will be 5 quizzes and 5 homework assignments. The quizzes will be on the Fridays of weeks 2, 4, 6, 8, and 10. The homeworks will be due on Fridays at 10:00a (start of class) on the same days as the quizzes. The quiz content will be related to the homework, and we will mark up the quizzes in class directly after finishing the quiz. We will have a final exam during the scheduled exam time (on week 11 of the course).
@@ -95,7 +97,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 Slides: [lecture-00.pdf](slides/lecture-00.pdf)
 
 Code for class:
-- [TBA](code/)
+- [Introduction to R](code/intro_to_R.R)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 1, 2
