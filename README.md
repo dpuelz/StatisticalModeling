@@ -92,7 +92,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 
 ### (0) Introduction and Bias-Variance Tradeoff
 
-Slides: [TBA](slides/)
+Slides: [lecture-00.pdf](slides/lecture-00.pdf)
 
 Code for class:
 - [TBA](code/)
