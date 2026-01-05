@@ -97,7 +97,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 Slides: [lecture-00.pdf](slides/lecture-00.pdf)
 
 Code for class:
-- [Introduction to R](code/intro_to_R.R)
+- [Introduction to R](code/intro_to_R.R) (includes example with [Austin restaurant data](data/austin_restaurants.csv))
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 1, 2

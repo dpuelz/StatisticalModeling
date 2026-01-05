@@ -154,15 +154,64 @@ abline(lm(exam_scores ~ study_hours), col = "red", lwd = 2)
 cor(study_hours, exam_scores)
 
 # ============================================================================
-# 9. WORKING WITH REAL DATA: LOADING CSV FILES
+# 9. INTERESTING EXAMPLE: AUSTIN RESTAURANT RATINGS
 # ============================================================================
 
-# Example: Load a CSV file (if it exists)
+# Load the Austin restaurants data
+# Note: Adjust the path based on where you run this script from
+# If running from the code/ directory, use: "../data/austin_restaurants.csv"
+# If running from the StatisticalModeling/ directory, use: "data/austin_restaurants.csv"
+restaurants <- read.csv("../data/austin_restaurants.csv")
+
+# Explore the data
+head(restaurants)
+str(restaurants)
+summary(restaurants)
+
+# What's the average rating?
+mean(restaurants$rating)
+
+# Which cuisine type has the highest average rating?
+aggregate(rating ~ cuisine, data = restaurants, FUN = mean)
+
+# How many restaurants in each neighborhood?
+table(restaurants$neighborhood)
+
+# Plot: Rating distribution
+hist(restaurants$rating,
+     xlab = "Rating", ylab = "Number of Restaurants",
+     main = "Distribution of Restaurant Ratings in Austin",
+     col = "lightcoral",
+     breaks = seq(3.5, 5.0, by = 0.1))
+
+# Plot: Ratings by cuisine type
+boxplot(rating ~ cuisine, data = restaurants,
+        xlab = "Cuisine Type", ylab = "Rating",
+        main = "Restaurant Ratings by Cuisine Type",
+        las = 2,  # Rotate x-axis labels
+        col = "lightblue")
+
+# Find restaurants with rating >= 4.5
+top_restaurants <- restaurants[restaurants$rating >= 4.5, ]
+top_restaurants[, c("name", "cuisine", "rating", "price_range")]
+
+# Relationship between number of reviews and rating?
+plot(restaurants$reviews, restaurants$rating,
+     xlab = "Number of Reviews", ylab = "Rating",
+     main = "Reviews vs Rating",
+     pch = 19, col = "darkgreen")
+cor(restaurants$reviews, restaurants$rating)
+
+# ============================================================================
+# 10. WORKING WITH REAL DATA: LOADING CSV FILES
+# ============================================================================
+
+# Example: Load a CSV file
 # data <- read.csv("path/to/your/file.csv")
 # head(data)
 
 # ============================================================================
-# 10. USEFUL FUNCTIONS TO KNOW
+# 11. USEFUL FUNCTIONS TO KNOW
 # ============================================================================
 
 # Sequences
@@ -183,7 +232,7 @@ ceiling(3.2)
 floor(3.8)
 
 # ============================================================================
-# 11. CONDITIONAL LOGIC
+# 12. CONDITIONAL LOGIC
 # ============================================================================
 
 # If-else statements
@@ -198,7 +247,7 @@ if (score >= 90) {
 grade
 
 # ============================================================================
-# 12. LOOPS (BUT VECTORIZED OPERATIONS ARE USUALLY BETTER!)
+# 13. LOOPS (BUT VECTORIZED OPERATIONS ARE USUALLY BETTER!)
 # ============================================================================
 
 # For loop example
@@ -212,7 +261,7 @@ squares
 (1:10)^2
 
 # ============================================================================
-# 13. FUNCTIONS
+# 14. FUNCTIONS
 # ============================================================================
 
 # Create your own function
@@ -225,7 +274,7 @@ convert_f_to_c(32)   # Freezing point
 convert_f_to_c(212)  # Boiling point
 
 # ============================================================================
-# 14. PACKAGES (EXTENDING R'S CAPABILITIES)
+# 15. PACKAGES (EXTENDING R'S CAPABILITIES)
 # ============================================================================
 
 # Install a package (only need to do once)
