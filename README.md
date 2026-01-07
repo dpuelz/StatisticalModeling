@@ -96,6 +96,8 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 
 Slides: [lecture-00.pdf](slides/lecture-00.pdf)
 
+Supplemental: [Bias-Variance Tradeoff Derivation](slides/BV_tradeoff_derivation.pdf)
+
 Code for class:
 - [Introduction to R](code/intro_to_R.R) (includes example with [Austin restaurant data](data/austin_restaurants.csv))
 - [Introduction to Probability and Regression](code/intro_probability-regression.R) (learning probability through simulation)
