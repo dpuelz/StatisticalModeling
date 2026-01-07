@@ -98,6 +98,7 @@ Slides: [lecture-00.pdf](slides/lecture-00.pdf)
 
 Code for class:
 - [Introduction to R](code/intro_to_R.R) (includes example with [Austin restaurant data](data/austin_restaurants.csv))
+- [Introduction to Probability and Regression](code/intro_probability-regression.R) (learning probability through simulation)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 1, 2
