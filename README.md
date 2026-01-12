@@ -109,7 +109,7 @@ Readings:
 
 ### (1) Inference for Regression and Multiple Regression
 
-Slides: [lecture-01.pdf](slides/lecture-01.pdf)
+Slides: [lecture-01.pdf](slides/lecture-01.pdf), [lecture-02.pdf](slides/lecture-02.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
