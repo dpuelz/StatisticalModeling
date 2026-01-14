@@ -116,7 +116,7 @@ Readings:
 - _Mastering 'Metrics_ (MM) -- Chapter 2
 
 Code for class:
-- [TBA](code/)
+- [Computing Standard Errors via Bootstrapping](code/bootstrap.R)
 
 ### (2) Categorical Predictors and Interactions
 
