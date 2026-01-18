@@ -117,6 +117,7 @@ Readings:
 
 Code for class:
 - [Computing standard errors via bootstrapping](code/bootstrap.R)
+- [Multiple regression example: stock returns](code/multiple_regression_stock_returns.R)
 
 ### (2) Categorical Predictors and Interactions
 
