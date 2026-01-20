@@ -31,7 +31,8 @@ There will be 5 homework assignments to be turned in via Populi. They will be po
 
 - [Homework 1](assignments/HW1.pdf). Due Friday, Jan 16 at 10:00a.
   - Data: [drone_strikes_venezuela.csv](data/drone_strikes_venezuela.csv), [stock_returns.csv](data/stock_returns.csv), [College.csv](data/College.csv)
-- <span style="color: #999;">Homework 2 (Coming soon)</span>. Due Friday, Jan 30 at 10:00a.
+- [Homework 2](assignments/HW2.pdf). Due Friday, Jan 30 at 10:00a.
+  - Data: [Boston.csv](data/Boston.csv), [beer-demand.csv](data/beer-demand.csv)
 - <span style="color: #999;">Homework 3 (Coming soon)</span>. Due Friday, Feb 13 at 10:00a.
 - <span style="color: #999;">Homework 4 (Coming soon)</span>. Due Friday, Feb 27 at 10:00a.
 - <span style="color: #999;">Homework 5 (Coming soon)</span>. Due Friday, Mar 13 at 10:00a.
