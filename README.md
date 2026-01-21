@@ -128,7 +128,7 @@ Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
 
 Code for class:
-- [TBA](code/)
+- [Interactions example: stock returns](code/interactions_example.R)
 
 ### (3) Assumptions, Diagnostics, and Nonlinear Regression
 
