@@ -122,7 +122,7 @@ Code for class:
 
 ### (2) Categorical Predictors and Interactions
 
-Slides: [lecture-03.pdf](slides/lecture-03.pdf)
+Slides: [lecture-03.pdf](slides/lecture-03.pdf), [lecture-04.pdf](slides/lecture-04.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
