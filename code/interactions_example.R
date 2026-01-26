@@ -46,6 +46,10 @@ summary(model1)
 model2 <- lm(GOOGL ~ AMZN * market_binary, data = stock_returns)
 summary(model2)
 
+model3 <- lm(GOOGL ~ AMZN * SPY, data = stock_returns)
+summary(model3)
+
+
 # ============================================================================
 # Visualization: Compare models
 # ============================================================================
