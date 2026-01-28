@@ -132,7 +132,7 @@ Code for class:
 
 ### (3) Assumptions, Diagnostics, and Nonlinear Regression
 
-Slides: [lecture-05.pdf](slides/lecture-05.pdf)
+Slides: [lecture-05.pdf](slides/lecture-05.pdf), [lecture-06.pdf](slides/lecture-06.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3, 7.1
