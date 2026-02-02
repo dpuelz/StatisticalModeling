@@ -144,7 +144,7 @@ Code for class:
 
 ### (4) Time Series Regression
 
-Slides: [TBA](slides/)
+Slides: [lecture-07.pdf](slides/lecture-07.pdf), [lecture-07a.pdf](slides/lecture-07a.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
