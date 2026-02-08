@@ -152,7 +152,7 @@ Code for class:
 
 ### (5) Logistic Regression
 
-Slides: [TBA](slides/)
+Slides: [lecture-08.pdf](slides/lecture-08.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
