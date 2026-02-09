@@ -144,7 +144,7 @@ Code for class:
 
 Slides: [lecture-07.pdf](slides/lecture-07.pdf), [lecture-07a.pdf](slides/lecture-07a.pdf)
 
-Supplemental: [Gaussian posterior derivation](slides/gaussian_posterior_derivation.pdf)
+Supplemental: [Gaussian posterior derivation](slides/gaussian_posterior_derivation.pdf), [Gaussian product and prior/likelihood/posterior (t=0→1, t=1→2)](slides/kalman_prior_likelihood_posterior.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
