@@ -142,19 +142,17 @@ Code for class:
 
 ### (4) Time Series Regression
 
-Slides: [lecture-07.pdf](slides/lecture-07.pdf), [lecture-07a.pdf](slides/lecture-07a.pdf)
-
-Supplemental: [Gaussian posterior derivation](slides/gaussian_posterior_derivation.pdf), [Gaussian product and prior/likelihood/posterior (t=0→1, t=1→2)](slides/kalman_prior_likelihood_posterior.pdf)
+Slides: [TBA](slides/)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
 
 Code for class:
-- [Kalman filter on NVIDIA daily returns](code/kalman_filter_nvda.R)
+- [TBA](code/)
 
 ### (5) Logistic Regression
 
-Slides: [lecture-08.pdf](slides/lecture-08.pdf)
+Slides: [TBA](slides/)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
