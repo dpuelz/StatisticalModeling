@@ -33,7 +33,7 @@ There will be 5 homework assignments to be turned in via Populi. They will be po
   - Data: [drone_strikes_venezuela.csv](data/drone_strikes_venezuela.csv), [stock_returns.csv](data/stock_returns.csv), [College.csv](data/College.csv)
 - [Homework 2](assignments/HW2.pdf). Due Friday, Jan 30 at 10:00a.
   - Data: [Boston.csv](data/Boston.csv), [beer-demand.csv](data/beer-demand.csv)
-- <span style="color: #999;">Homework 3 (Coming soon)</span>. Due Friday, Feb 13 at 10:00a.
+- [Homework 3](assignments/HW3.pdf). Due Friday, Feb 13 at 10:00a.
 - <span style="color: #999;">Homework 4 (Coming soon)</span>. Due Friday, Feb 27 at 10:00a.
 - <span style="color: #999;">Homework 5 (Coming soon)</span>. Due Friday, Mar 13 at 10:00a.
 
@@ -142,17 +142,19 @@ Code for class:
 
 ### (4) Time Series Regression
 
-Slides: [TBA](slides/)
+Slides: [lecture-07.pdf](slides/lecture-07.pdf), [lecture-07a.pdf](slides/lecture-07a.pdf)
+
+Supplemental: [Gaussian posterior derivation](slides/gaussian_posterior_derivation.pdf), [Gaussian product and prior/likelihood/posterior (t=0→1, t=1→2)](slides/kalman_prior_likelihood_posterior.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
 
 Code for class:
-- [TBA](code/)
+- [Kalman filter on NVIDIA daily returns](code/kalman_filter_nvda.R)
 
 ### (5) Logistic Regression
 
-Slides: [TBA](slides/)
+Slides: [lecture-08.pdf](slides/lecture-08.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
