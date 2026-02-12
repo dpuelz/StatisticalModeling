@@ -34,6 +34,7 @@ There will be 5 homework assignments to be turned in via Populi. They will be po
 - [Homework 2](assignments/HW2.pdf). Due Friday, Jan 30 at 10:00a.
   - Data: [Boston.csv](data/Boston.csv), [beer-demand.csv](data/beer-demand.csv)
 - [Homework 3](assignments/HW3.pdf). Due Friday, Feb 13 at 10:00a.
+  - Data: [airline_passengers.csv](data/airline_passengers.csv), [daily_temperature.csv](data/daily_temperature.csv), [noisy_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt)
 - <span style="color: #999;">Homework 4 (Coming soon)</span>. Due Friday, Feb 27 at 10:00a.
 - <span style="color: #999;">Homework 5 (Coming soon)</span>. Due Friday, Mar 13 at 10:00a.
 
@@ -132,13 +133,15 @@ Code for class:
 
 ### (3) Assumptions, Diagnostics, and Nonlinear Regression
 
-Slides: [TBA](slides/)
+Slides: [lecture-05.pdf](slides/lecture-05.pdf), [lecture-06.pdf](slides/lecture-06.pdf)
+
+Supplemental: [Slope Interpretations in the Presence of Logs](slides/log_slope_derivations.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3, 7.1
 
 Code for class:
-- [TBA](code/)
+- [Regression diagnostics: Saratoga houses](code/saratoga_diag.R)
 
 ### (4) Time Series Regression
 
