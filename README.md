@@ -96,7 +96,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 
 ### (0) Introduction and Bias-Variance Tradeoff
 
-Slides: [lecture-00.pdf](slides/lecture-00.pdf)
+Slides: [statistical-modeling.pdf](slides/statistical-modeling.pdf)
 
 Supplemental: [Bias-Variance Tradeoff Derivation](slides/BV_tradeoff_derivation.pdf)
 
@@ -111,7 +111,7 @@ Readings:
 
 ### (1) Inference for Regression and Multiple Regression
 
-Slides: [lecture-01.pdf](slides/lecture-01.pdf), [lecture-02.pdf](slides/lecture-02.pdf)
+Slides: [linear-regression-simple-and-inference.pdf](slides/linear-regression-simple-and-inference.pdf), [multiple-regression.pdf](slides/multiple-regression.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
@@ -123,7 +123,7 @@ Code for class:
 
 ### (2) Categorical Predictors and Interactions
 
-Slides: [lecture-03.pdf](slides/lecture-03.pdf), [lecture-04.pdf](slides/lecture-04.pdf)
+Slides: [categorical-predictors.pdf](slides/categorical-predictors.pdf), [interactions.pdf](slides/interactions.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
@@ -133,7 +133,7 @@ Code for class:
 
 ### (3) Assumptions, Diagnostics, and Nonlinear Regression
 
-Slides: [lecture-05.pdf](slides/lecture-05.pdf), [lecture-06.pdf](slides/lecture-06.pdf)
+Slides: [regression-assumptions-and-data-cleaning.pdf](slides/regression-assumptions-and-data-cleaning.pdf), [modeling-nonlinear-relationships.pdf](slides/modeling-nonlinear-relationships.pdf)
 
 Supplemental: [Slope Interpretations in the Presence of Logs](slides/log_slope_derivations.pdf)
 
@@ -145,7 +145,7 @@ Code for class:
 
 ### (4) Time Series Regression
 
-Slides: [lecture-07.pdf](slides/lecture-07.pdf), [lecture-07a.pdf](slides/lecture-07a.pdf)
+Slides: [time-series-regression.pdf](slides/time-series-regression.pdf), [dynamic-linear-models-and-kalman-filter.pdf](slides/dynamic-linear-models-and-kalman-filter.pdf)
 
 Supplemental: [Gaussian posterior derivation](slides/gaussian_posterior_derivation.pdf), [Gaussian product and prior/likelihood/posterior (t=0→1, t=1→2)](slides/kalman_prior_likelihood_posterior.pdf)
 
@@ -157,7 +157,7 @@ Code for class:
 
 ### (5) Logistic Regression
 
-Slides: [lecture-08-logistic.pdf](slides/lecture-08-logistic.pdf)
+Slides: [logistic-regression.pdf](slides/logistic-regression.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
@@ -167,7 +167,7 @@ Code for class:
 
 ### (6) Model Selection and Penalized Regression
 
-Slides: [lecture-08.pdf](slides/lecture-08.pdf) (Model selection), [lecture-08a.pdf](slides/lecture-08a.pdf) (Penalized regression)
+Slides: [model-selection.pdf](slides/model-selection.pdf), [penalized-regression.pdf](slides/penalized-regression.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
