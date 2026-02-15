@@ -167,7 +167,7 @@ Code for class:
 
 ### (6) Model Selection and Penalized Regression
 
-Slides: [TBA](slides/)
+Slides: [lecture-08.pdf](slides/lecture-08.pdf) (Model selection), [lecture-08a.pdf](slides/lecture-08a.pdf) (Penalized regression)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
