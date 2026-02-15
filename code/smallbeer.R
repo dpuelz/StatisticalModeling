@@ -1,3 +1,7 @@
+# Price elasticity of demand with LASSO (model selection and penalized regression)
+# Required packages: Matrix, slam, gamlr, tm, dplyr (for %>%)
+# Run from the StatisticalModeling/code directory
+
 library(Matrix)
 library(slam)
 library(gamlr)

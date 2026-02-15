@@ -157,7 +157,7 @@ Code for class:
 
 ### (5) Logistic Regression
 
-Slides: [lecture-08.pdf](slides/lecture-08.pdf)
+Slides: [lecture-08-logistic.pdf](slides/lecture-08-logistic.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
@@ -173,7 +173,7 @@ Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
 
 Code for class:
-- [TBA](code/)
+- [smallbeer.R](code/smallbeer.R) (price elasticity of demand with LASSO; uses [smallbeer.csv](data/smallbeer.csv))
 
 ### (7) Trees, Ensembles, and Neural Networks
 
