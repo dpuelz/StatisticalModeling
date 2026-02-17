@@ -35,7 +35,8 @@ There will be 5 homework assignments to be turned in via Populi. They will be po
   - Data: [Boston.csv](data/Boston.csv), [beer-demand.csv](data/beer-demand.csv)
 - [Homework 3](assignments/HW3.pdf). Due Friday, Feb 13 at 10:00a.
   - Data: [airline_passengers.csv](data/airline_passengers.csv), [daily_temperature.csv](data/daily_temperature.csv), [noisy_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt)
-- <span style="color: #999;">Homework 4 (Coming soon)</span>. Due Friday, Feb 27 at 10:00a.
+- [Homework 4](assignments/HW4.pdf). Due Friday, Feb 27 at 10:00a.
+  - Data: [greenbuildings.csv](data/greenbuildings.csv), [social_marketing.csv](data/social_marketing.csv), [wine.csv](data/wine.csv)
 - <span style="color: #999;">Homework 5 (Coming soon)</span>. Due Friday, Mar 13 at 10:00a.
 
 ### Homework Rubric
@@ -87,7 +88,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | 5 | Feb 2 | Time series regression | ISL: Ch 3 (supplemental) |
 | 6 | Feb 9 | Logistic regression | ISL: Ch 4.1-4.3 |
 | 7 | Feb 16 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
-| 8 | Feb 23 | Trees, ensembles, and neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
+| 8 | Feb 23 | Trees, ensembles, neural networks, and deep neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
 | 9 | Mar 2 | Causal inference | MM: Ch 1, ISL: Ch 3.2 |
 | 10 | Mar 9 | Causal inference | MM: Ch 3-5 |
 | 11 | Mar 16 | **Final exam week** | |
@@ -174,8 +175,9 @@ Readings:
 
 Code for class:
 - [smallbeer.R](code/smallbeer.R) (price elasticity of demand with LASSO; uses [smallbeer.csv](data/smallbeer.csv))
+- [congress109.R](code/congress109.R) (penalized logistic regression: predict party from speech; uses [congress109.csv](data/congress109.csv), [congress109members.csv](data/congress109members.csv))
 
-### (7) Trees, Ensembles, and Neural Networks
+### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
 
 Slides: [TBA](slides/)
 
