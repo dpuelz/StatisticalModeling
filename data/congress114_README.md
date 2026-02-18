@@ -2,10 +2,10 @@
 
 The script `congress114.R` is structurally identical to `congress109.R` but uses **114th Congress** data (2015–2017), the most recent congress available in the Stanford Congressional Record dataset.
 
-## Required Files
+## Data Files (included)
 
-- **congress114.csv**: Rows = members, columns = phrase bigrams (e.g. `health.care.reform`), values = counts
-- **congress114members.csv**: Columns = `name`, `party`, `state`, `chamber`, etc. (same structure as congress109members.csv)
+- **congress114.csv**: 99 senators × 5,031 phrase bigrams (Senate only; from STBS/Stanford hein-daily)
+- **congress114members.csv**: Columns = `name`, `party`, `state`, `chamber`, etc.
 
 ## Data Source
 
@@ -48,6 +48,13 @@ If `byspeaker_2gram_114.txt` exists in hein-daily, it may already contain speake
 ## Alternative: ICPSR Data (104th–110th Only)
 
 ICPSR study [33501](https://www.icpsr.umich.edu/web/ICPSR/studies/33501) provides phrase counts for 104th–110th Congresses. It does **not** include the 114th Congress. For the most recent data, use the Stanford source above.
+
+## Regenerating the Data
+
+To regenerate from the STBS source:
+
+1. Create `temp_stbs/` and download from [STBS GitHub](https://github.com/vavrajan/STBS/tree/master/data/hein-daily/clean): `counts114.npz`, `author_indices114.npy`, `vocabulary114.txt`, `author_info114.csv`
+2. Run `python convert_stbs_to_congress114.py` (requires numpy, scipy, pandas; use a venv)
 
 ## Note on Current Congress (118th)
 

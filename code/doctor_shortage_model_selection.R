@@ -101,6 +101,7 @@ plot(model_sizes, aic_path, type = "b",
      xlab = "Number of Predictors", ylab = "AIC",
      main = "Backward Stepwise Regression Path\n(Full elimination path)",
      pch = 16, col = "darkblue", lwd = 2)
+
 # Highlight the minimum AIC point
 min_idx <- which.min(aic_path)
 points(model_sizes[min_idx], aic_path[min_idx], 
