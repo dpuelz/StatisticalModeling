@@ -1,7 +1,11 @@
-# Penalized logistic regression: Predicting party from congressional speech
+# Penalized logistic regression: Predicting party from congressional speech (114th Congress)
+# Identical structure to congress109.R but uses 114th Congress data (2015-2017)
 # Required packages: glmnet, plotmo
 # Run from the StatisticalModeling/code directory
-# Data: congress109.csv (phrase counts), congress109members.csv (party, etc.)
+# Data: congress114.csv (phrase counts), congress114members.csv (party, etc.)
+#
+# To obtain data: See data/congress114_README.md for instructions on downloading
+# and processing the Stanford Congressional Record dataset (43rd-114th Congresses).
 
 library(glmnet)
 library(plotmo)
@@ -9,8 +13,8 @@ library(plotmo)
 ##
 # Load data
 ##
-countdata <- read.csv("../data/congress109.csv", header = TRUE, row.names = 1)
-memberdata <- read.csv("../data/congress109members.csv", header = TRUE, row.names = 1)
+countdata <- read.csv("../data/congress114.csv", header = TRUE, row.names = 1)
+memberdata <- read.csv("../data/congress114members.csv", header = TRUE, row.names = 1)
 
 stopifnot(all(rownames(countdata) == rownames(memberdata)))
 
