@@ -181,13 +181,13 @@ Code for class:
 
 ### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
 
-Slides: [TBA](slides/)
+Slides: [regression-trees.pdf](slides/regression-trees.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 11.1-11.3
 
 Code for class:
-- [TBA](code/)
+- [trees_walkthrough.R](code/trees_walkthrough.R)
 
 ### (8) Causal Inference (Part 1)
 
