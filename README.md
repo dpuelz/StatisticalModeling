@@ -181,7 +181,7 @@ Code for class:
 
 ### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
 
-Slides: [regression-trees.pdf](slides/regression-trees.pdf)
+Slides: [regression-trees.pdf](slides/regression-trees.pdf), [intro-to-neural-networks.pdf](slides/intro-to-neural-networks.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 11.1-11.3
