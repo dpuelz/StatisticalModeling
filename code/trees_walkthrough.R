@@ -67,7 +67,7 @@ cat("Single tree test RMSE:", round(rmse_tree, 2), "\n")
 
 # Step 1: Grow a very large tree (small cp allows many splits)
 big_tree <- rpart(medv ~ ., data = train,
-                  control = rpart.control(cp = 0.001, minsplit = 5))
+                  control = rpart.control(cp = 0.0005, minsplit = 5))
 
 cat("Full tree has", sum(big_tree$frame$var == "<leaf>"), "terminal nodes\n")
 
