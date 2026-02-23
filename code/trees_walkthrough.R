@@ -73,6 +73,7 @@ cat("Full tree has", sum(big_tree$frame$var == "<leaf>"), "terminal nodes\n")
 
 # Step 2: Look at the cross-validation results
 printcp(big_tree)
+rpart.plot(big_tree)
 plotcp(big_tree)
 
 # Step 3: Find the best cp using the 1-SE rule
