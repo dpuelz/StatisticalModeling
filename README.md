@@ -188,6 +188,9 @@ Readings:
 
 Code for class:
 - [trees_walkthrough.R](code/trees_walkthrough.R)
+- [basic_nn.ipynb](code/basic_nn.ipynb)
+- [classification_nn.ipynb](code/classification_nn.ipynb)
+- [MNIST.ipynb](code/MNIST.ipynb)
 
 ### (8) Causal Inference (Part 1)
 
