@@ -37,7 +37,8 @@ There will be 5 homework assignments to be turned in via Populi. They will be po
   - Data: [airline_passengers.csv](data/airline_passengers.csv), [daily_temperature.csv](data/daily_temperature.csv), [noisy_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt)
 - [Homework 4](assignments/HW4.pdf). Due Friday, Feb 27 at 10:00a.
   - Data: [greenbuildings.csv](data/greenbuildings.csv), [social_marketing.csv](data/social_marketing.csv), [wine.csv](data/wine.csv)
-- <span style="color: #999;">Homework 5 (Coming soon)</span>. Due Friday, Mar 13 at 10:00a.
+- [Homework 5](assignments/HW5.pdf). Due Friday, Mar 13 at 10:00a.
+  - Data: [EuroSAT](https://pytorch.org/vision/stable/generated/torchvision.datasets.EuroSAT.html) (via `torchvision.datasets.EuroSAT`, downloads automatically); [castle](https://github.com/causaldata/causaldata) (via R package causaldata: `data(castle, package = "causaldata")`). Starter code: [HW5_neural_networks.ipynb](code/HW5_neural_networks.ipynb).
 
 ### Homework Rubric
 
