@@ -178,7 +178,6 @@ Code for class:
 - [doctor_shortage_model_selection.R](code/doctor_shortage_model_selection.R) (best subsets, stepwise regression; uses [counties.csv](data/counties.csv))
 - [smallbeer.R](code/smallbeer.R) (price elasticity of demand with LASSO; uses [smallbeer.csv](data/smallbeer.csv))
 - [congress109.R](code/congress109.R) (penalized logistic regression: predict party from speech; uses [congress109.csv](data/congress109.csv), [congress109members.csv](data/congress109members.csv))
-- [congress114.R](code/congress114.R) (same analysis for 114th Congress 2015–2017; requires [congress114.csv](data/congress114.csv), [congress114members.csv](data/congress114members.csv)—see [data/congress114_README.md](data/congress114_README.md) for data instructions)
 
 ### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
 
@@ -195,7 +194,7 @@ Code for class:
 
 ### (8) Causal Inference (Part 1)
 
-Slides: [TBA](slides/)
+Slides: [causality.pdf](slides/causality.pdf)
 
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapter 1
@@ -206,7 +205,7 @@ Code for class:
 
 ### (9) Causal Inference (Part 2)
 
-Slides: [TBA](slides/)
+Slides: [causality.pdf](slides/causality.pdf)
 
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapters 3-5
