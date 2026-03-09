@@ -196,6 +196,8 @@ Code for class:
 
 Slides: [causality.pdf](slides/causality.pdf)
 
+Supplemental: [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
+
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapter 1
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
@@ -206,6 +208,8 @@ Code for class:
 ### (9) Causal Inference (Part 2)
 
 Slides: [causality.pdf](slides/causality.pdf)
+
+Supplemental: [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
 
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapters 3-5
