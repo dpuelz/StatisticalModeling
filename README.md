@@ -90,7 +90,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | 6 | Feb 9 | Logistic regression | ISL: Ch 4.1-4.3 |
 | 7 | Feb 16 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
 | 8 | Feb 23 | Trees, ensembles, neural networks, and deep neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
-| 9 | Mar 2 | Causal inference | MM: Ch 1, ISL: Ch 3.2 |
+| 9 | Mar 2 | Neural networks + causal inference | MM: Ch 1, ISL: Ch 3.2 |
 | 10 | Mar 9 | Causal inference | MM: Ch 3-5 |
 | 11 | Mar 16 | **Final exam week** | |
 
@@ -196,7 +196,7 @@ Code for class:
 
 Slides:
 - [causality.pdf](slides/causality.pdf)
-- [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
+- [selectionandRIC.pdf](slides/selectionandRIC.pdf)
 
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapters 1, 3-5
