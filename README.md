@@ -192,21 +192,7 @@ Code for class:
 - [classification_nn.ipynb](code/classification_nn.ipynb)
 - [MNIST.ipynb](code/MNIST.ipynb)
 
-### (8) Causal Inference (Part 1)
-
-Slides:
-- [causality.pdf](slides/causality.pdf)
-- [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
-
-Readings:
-- _Mastering 'Metrics_ (MM) -- Chapters 1, 3-5
-- _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
-
-Code for class:
-- [DiD.R](code/DiD.R) (difference-in-differences)
-- [levitt.R](code/levitt.R) (Levitt abortion-crime example)
-
-### (9) Causal Inference (Part 2)
+### (8) Causal Inference
 
 Slides:
 - [causality.pdf](slides/causality.pdf)
