@@ -194,25 +194,28 @@ Code for class:
 
 ### (8) Causal Inference (Part 1)
 
-Slides: [causality.pdf](slides/causality.pdf)
-
-Supplemental: [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
+Slides:
+- [causality.pdf](slides/causality.pdf)
+- [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
 
 Readings:
-- _Mastering 'Metrics_ (MM) -- Chapter 1
+- _Mastering 'Metrics_ (MM) -- Chapters 1, 3-5
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
 
 Code for class:
-- [TBA](code/)
+- [DiD.R](code/DiD.R) (difference-in-differences)
+- [levitt.R](code/levitt.R) (Levitt abortion-crime example)
 
 ### (9) Causal Inference (Part 2)
 
-Slides: [causality.pdf](slides/causality.pdf)
-
-Supplemental: [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
+Slides:
+- [causality.pdf](slides/causality.pdf)
+- [Machine Learning for Causal Inference (Selection and RIC)](slides/selectionandRIC.pdf)
 
 Readings:
-- _Mastering 'Metrics_ (MM) -- Chapters 3-5
+- _Mastering 'Metrics_ (MM) -- Chapters 1, 3-5
+- _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
 
 Code for class:
-- [TBA](code/)
+- [DiD.R](code/DiD.R) (difference-in-differences)
+- [levitt.R](code/levitt.R) (Levitt abortion-crime example)
