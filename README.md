@@ -1,13 +1,17 @@
 # Statistical Modeling and Learning
 
-Welcome to the Winter 2026 edition of Statistical Modeling and Learning (STM 2102, 4.5 credits)! All course materials can be found on this GitHub page. Please see the [course syllabus](syllabus/course_outline.pdf) for links and descriptions of the readings mentioned below.
+Welcome to the Fall 2026 edition of Statistical Modeling and Learning (STM 2102, 4.5 credits)! All course materials can be found on this GitHub page. Please see the [course syllabus](syllabus/course_outline.pdf) for links and descriptions of the readings mentioned below.
 
 **Instructor:**  
 - Prof. David Puelz. Individual meetings can be booked at the following [link](https://calendly.com/dpuelz). Office hours: Please consult the webpage.
 
 **Email:** [dpuelz@uaustin.org](mailto:dpuelz@uaustin.org)
 
-**Meeting Schedule:** M/W/F from 10:00a-11:15a
+**Meeting Schedule:**
+- Section 1: M/W/F, 11:30a-12:45p
+- Section 2: T/Th/F, 10:00a-11:15a
+
+**Term:** Monday, August 31 - Monday, November 9, 2026. Final exams November 10-17.
 
 ## Course Description
 
@@ -27,18 +31,16 @@ This course trains students to wield data as both a scientific and predictive to
 
 ## Assignments
 
-There will be 5 homework assignments to be turned in via Populi. They will be posted here.
+There will be 5 homework assignments, submitted via Populi. Each will be posted here as it is
+released, and is due at the **start of your section's class** on the Friday listed below.
 
-- [Homework 1](assignments/HW1.pdf). Due Friday, Jan 16 at 10:00a.
-  - Data: [drone_strikes_venezuela.csv](data/drone_strikes_venezuela.csv), [stock_returns.csv](data/stock_returns.csv), [College.csv](data/College.csv)
-- [Homework 2](assignments/HW2.pdf). Due Friday, Jan 30 at 10:00a.
-  - Data: [Boston.csv](data/Boston.csv), [beer-demand.csv](data/beer-demand.csv)
-- [Homework 3](assignments/HW3.pdf). Due Friday, Feb 13 at 10:00a.
-  - Data: [airline_passengers.csv](data/airline_passengers.csv), [daily_temperature.csv](data/daily_temperature.csv), [noisy_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt)
-- [Homework 4](assignments/HW4.pdf). Due Friday, Feb 27 at 10:00a.
-  - Data: [greenbuildings.csv](data/greenbuildings.csv), [social_marketing.csv](data/social_marketing.csv), [wine.csv](data/wine.csv)
-- [Homework 5](assignments/HW5.pdf). Due Friday, Mar 13 at 10:00a.
-  - Data: [EuroSAT](https://pytorch.org/vision/stable/generated/torchvision.datasets.EuroSAT.html) (via `torchvision.datasets.EuroSAT`, downloads automatically); [castle](https://github.com/causaldata/causaldata) (via R package causaldata: `data(castle, package = "causaldata")`). Starter code: [HW5_neural_networks.ipynb](code/HW5_neural_networks.ipynb).
+| Homework | Due | Section 1 | Section 2 |
+|---|---|---|---|
+| Homework 1 | Friday, Sep 11 | 11:30a | 10:00a |
+| Homework 2 | Friday, Sep 25 | 11:30a | 10:00a |
+| Homework 3 | Friday, Oct 9 | 11:30a | 10:00a |
+| Homework 4 | Friday, Oct 23 | 11:30a | 10:00a |
+| Homework 5 | Friday, Nov 6 | 11:30a | 10:00a |
 
 ### Homework Rubric
 
@@ -56,15 +58,15 @@ There will be 5 homework assignments to be turned in via Populi. They will be po
 
 There will be 5 quizzes on the Fridays of weeks 2, 4, 6, 8, and 10. The quizzes will be related to the homework, and we will mark up the quizzes in class directly after finishing the quiz.
 
-- Quiz 1: Week 2, Friday (Jan 16)
-- Quiz 2: Week 4, Friday (Jan 30)
-- Quiz 3: Week 6, Friday (Feb 13)
-- Quiz 4: Week 8, Friday (Feb 27)
-- Quiz 5: Week 10, Friday (Mar 13)
+- Quiz 1: Week 2, Friday, Sep 11
+- Quiz 2: Week 4, Friday, Sep 25
+- Quiz 3: Week 6, Friday, Oct 9
+- Quiz 4: Week 8, Friday, Oct 23
+- Quiz 5: Week 10, Friday, Nov 6
 
 ## Final Exam
 
-The final exam will be held during the scheduled exam time (week 11 of the course).
+The final exam will be held during the scheduled exam period, **November 10-17**. Note that Veterans Day, Wednesday November 11, is a university holiday and no exams are held that day.
 
 ## Software
 
@@ -76,23 +78,26 @@ You will need a local download of R to run our example code and for your assignm
 
 ## Course Cadence
 
-There will be 5 quizzes and 5 homework assignments. The quizzes will be on the Fridays of weeks 2, 4, 6, 8, and 10. The homeworks will be due on Fridays at 10:00a (start of class) on the same days as the quizzes. The quiz content will be related to the homework, and we will mark up the quizzes in class directly after finishing the quiz. We will have a final exam during the scheduled exam time (on week 11 of the course).
+There will be 5 quizzes and 5 homework assignments. The quizzes will be on the Fridays of weeks 2, 4, 6, 8, and 10. The homeworks will be due at the start of class on the same Fridays as the quizzes -- 11:30a for Section 1, 10:00a for Section 2. The quiz content will be related to the homework, and we will mark up the quizzes in class directly after finishing the quiz. We will have a final exam during the scheduled exam time (on week 11 of the course).
 
 ## Rough Schedule
 
-| Week | Dates | Topics | Reading |
-|------|-------|--------|---------|
-| 1 | Jan 5 | Intro and bias-variance tradeoff | ISL: Ch 1, 2 |
-| 2 | Jan 12 | Inference for regression + Multiple regression | ISL: Ch 3.1-3.2, MM: Ch 2 |
-| 3 | Jan 19 | Categorical predictors and interactions | ISL: Ch 3.3 |
-| 4 | Jan 26 | Assumptions, diagnostics + Nonlinear regression | ISL: Ch 3.3, 7.1 |
-| 5 | Feb 2 | Time series regression | ISL: Ch 3 (supplemental) |
-| 6 | Feb 9 | Logistic regression | ISL: Ch 4.1-4.3 |
-| 7 | Feb 16 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
-| 8 | Feb 23 | Trees, ensembles, neural networks, and deep neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
-| 9 | Mar 2 | Neural networks + causal inference | MM: Ch 1, ISL: Ch 3.2 |
-| 10 | Mar 9 | Causal inference | MM: Ch 3-5 |
-| 11 | Mar 16 | **Final exam week** | |
+| Week | Week of | Topics | Reading |
+|------|---------|--------|---------|
+| 1 | Aug 31 | Intro and bias-variance tradeoff | ISL: Ch 1, 2 |
+| 2 | Sep 7 | Inference for regression + Multiple regression | ISL: Ch 3.1-3.2, MM: Ch 2 |
+| 3 | Sep 14 | Categorical predictors and interactions | ISL: Ch 3.3 |
+| 4 | Sep 21 | Assumptions, diagnostics + Nonlinear regression | ISL: Ch 3.3, 7.1 |
+| 5 | Sep 28 | Time series regression | ISL: Ch 3 (supplemental) |
+| 6 | Oct 5 | Logistic regression | ISL: Ch 4.1-4.3 |
+| 7 | Oct 12 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
+| 8 | Oct 19 | Trees, ensembles, and neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
+| 9 | Oct 26 | Causal inference | MM: Ch 1, ISL: Ch 3.2 |
+| 10 | Nov 2 | Causal inference | MM: Ch 3-5 |
+| 11 | Nov 9 | Last day of instruction Nov 9; **final exams Nov 10-17** | |
+
+Labor Day, Monday September 7, is a university holiday -- Section 1 does not meet that day.
+Add/drop closes Thursday September 10; the last day to withdraw is Wednesday October 14.
 
 ## Outline of Topics
 
