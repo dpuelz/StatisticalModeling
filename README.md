@@ -101,6 +101,8 @@ Add/drop closes Thursday September 10; the last day to withdraw is Wednesday Oct
 
 ## Outline of Topics
 
+Slides and code for each unit will be posted here as we reach that week of class.
+
 ### (0) Introduction and Bias-Variance Tradeoff
 
 Slides: [statistical-modeling.pdf](slides/statistical-modeling.pdf)
@@ -118,95 +120,58 @@ Readings:
 
 ### (1) Inference for Regression and Multiple Regression
 
-Slides: [linear-regression-simple-and-inference.pdf](slides/linear-regression-simple-and-inference.pdf), [multiple-regression.pdf](slides/multiple-regression.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
 - _Mastering 'Metrics_ (MM) -- Chapter 2
 
-Code for class:
-- [Computing standard errors via bootstrapping](code/bootstrap.R)
-- [Multiple regression example: stock returns](code/mlr_stock_returns.R)
-
 ### (2) Categorical Predictors and Interactions
 
-Slides: [categorical-predictors.pdf](slides/categorical-predictors.pdf), [interactions.pdf](slides/interactions.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
 
-Code for class:
-- [Interactions example: stock returns](code/interactions_example.R)
-
 ### (3) Assumptions, Diagnostics, and Nonlinear Regression
 
-Slides: [regression-assumptions-and-data-cleaning.pdf](slides/regression-assumptions-and-data-cleaning.pdf), [modeling-nonlinear-relationships.pdf](slides/modeling-nonlinear-relationships.pdf)
-
-Supplemental: [Slope Interpretations in the Presence of Logs](slides/log_slope_derivations.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3, 7.1
 
-Code for class:
-- [Regression diagnostics: Saratoga houses](code/saratoga_diag.R)
-
 ### (4) Time Series Regression
 
-Slides: [time-series-regression.pdf](slides/time-series-regression.pdf), [dynamic-linear-models-and-kalman-filter.pdf](slides/dynamic-linear-models-and-kalman-filter.pdf)
-
-Supplemental: [Gaussian posterior derivation](slides/gaussian_posterior_derivation.pdf), [Gaussian product and prior/likelihood/posterior (t=0→1, t=1→2)](slides/kalman_prior_likelihood_posterior.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
 
-Code for class:
-- [Kalman filter on NVIDIA daily returns](code/kalman_filter_nvda.R)
-
 ### (5) Logistic Regression
 
-Slides: [logistic-regression.pdf](slides/logistic-regression.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
 
-Code for class:
-- [TBA](code/)
-
 ### (6) Model Selection and Penalized Regression
 
-Slides: [model-selection.pdf](slides/model-selection.pdf), [penalized-regression.pdf](slides/penalized-regression.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
 
-Code for class:
-- [doctor_shortage_model_selection.R](code/doctor_shortage_model_selection.R) (best subsets, stepwise regression; uses [counties.csv](data/counties.csv))
-- [smallbeer.R](code/smallbeer.R) (price elasticity of demand with LASSO; uses [smallbeer.csv](data/smallbeer.csv))
-- [congress109.R](code/congress109.R) (penalized logistic regression: predict party from speech; uses [congress109.csv](data/congress109.csv), [congress109members.csv](data/congress109members.csv))
-
 ### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
 
-Slides: [regression-trees.pdf](slides/regression-trees.pdf), [intro-to-neural-networks.pdf](slides/intro-to-neural-networks.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 11.1-11.3
 
-Code for class:
-- [trees_walkthrough.R](code/trees_walkthrough.R)
-- [basic_nn.ipynb](code/basic_nn.ipynb)
-- [classification_nn.ipynb](code/classification_nn.ipynb)
-- [MNIST.ipynb](code/MNIST.ipynb)
-
 ### (8) Causal Inference
 
-Slides:
-- [causality.pdf](slides/causality.pdf)
-- [selectionandRIC.pdf](slides/selectionandRIC.pdf)
+Slides: *coming soon*
 
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapters 1, 3-5
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.2
-
-Code for class:
-- [DiD.R](code/DiD.R) (difference-in-differences)
-- [levitt.R](code/levitt.R) (Levitt abortion-crime example)
