@@ -109,7 +109,7 @@ Supplemental: [Bias-Variance Tradeoff Derivation](slides/BV_tradeoff_derivation.
 
 Code for class:
 - [Introduction to R](code/intro_to_R.R) (includes example with [Austin restaurant data](data/austin_restaurants.csv))
-- [Introduction to Probability and Regression](code/intro_probability-regression.R) (learning probability through simulation)
+- [Introduction to Probability and Regression](code/intro_probability-regression.R) (signal + noise, Normal, mean/SD, ±2 SD rule, *p*-values — the probability you'll need for regression)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 1, 2
