@@ -1,0 +1,49 @@
+---
+title: "R Markdown Example"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Hello!
+
+This is a **very simple** R Markdown (`.Rmd`) file.  
+You write text like a normal document, and put R code in **chunks**.
+
+To turn this into a nice report: open the file in RStudio and click **Knit**.
+
+## 1. R as a calculator
+
+```{r}
+2 + 3
+mean(c(4, 6, 8, 10))
+```
+
+## 2. Load some data
+
+We use the Austin restaurants file in the course `data/` folder.  
+(Open this `.Rmd` from the `code/` folder, or set your working directory there.)
+
+```{r}
+restaurants <- read.csv("../data/austin_restaurants.csv")
+head(restaurants)
+```
+
+## 3. A short summary
+
+```{r}
+mean(restaurants$rating)
+table(restaurants$cuisine)
+```
+
+## 4. A plot
+
+```{r}
+plot(restaurants$reviews, restaurants$rating,
+     xlab = "Number of reviews",
+     ylab = "Rating",
+     main = "Austin restaurants",
+     pch = 19, col = "navy")
+```
+
+That's it. For homework, knit your write-up to HTML or PDF and submit the knitted file (and the `.Rmd` if asked).
