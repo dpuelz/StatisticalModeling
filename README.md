@@ -31,16 +31,15 @@ This course trains students to wield data as both a scientific and predictive to
 
 ## Assignments
 
-There will be 5 homework assignments, submitted via Populi. Each will be posted here as it is
-released, and is due at the **start of your section's class** on the Friday listed below.
+There will be 5 homework assignments, submitted via Populi as a professionally compiled PDF. Each will be posted here as it is released.
 
-| Homework | Due | Section 1 | Section 2 |
-|---|---|---|---|
-| Homework 1 | Friday, Sep 11 | 11:30a | 10:00a |
-| Homework 2 | Friday, Sep 25 | 11:30a | 10:00a |
-| Homework 3 | Friday, Oct 9 | 11:30a | 10:00a |
-| Homework 4 | Friday, Oct 23 | 11:30a | 10:00a |
-| Homework 5 | Friday, Nov 6 | 11:30a | 10:00a |
+| Homework | Due | |
+|---|---|---|
+| [Homework 1](assignments/HW1.pdf) | Friday, Sep 11 | |
+| Homework 2 | Friday, Sep 25 | *coming soon* |
+| Homework 3 | Friday, Oct 9 | *coming soon* |
+| Homework 4 | Friday, Oct 23 | *coming soon* |
+| Homework 5 | Friday, Nov 6 | *coming soon* |
 
 ### Homework Rubric
 
