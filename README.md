@@ -35,7 +35,7 @@ There will be 5 homework assignments, submitted via Populi as a professionally c
 
 | Homework | Due | |
 |---|---|---|
-| [Homework 1](assignments/HW1.pdf) | Friday, Sep 11 | |
+| [Homework 1](assignments/HW1.pdf) | Friday, Sep 11 | Data: [drone\_strikes\_venezuela.csv](data/drone_strikes_venezuela.csv), [stock\_returns.csv](data/stock_returns.csv) |
 | Homework 2 | Friday, Sep 25 | *coming soon* |
 | Homework 3 | Friday, Oct 9 | *coming soon* |
 | Homework 4 | Friday, Oct 23 | *coming soon* |
