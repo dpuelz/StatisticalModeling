@@ -48,4 +48,4 @@ plot(restaurants$reviews, restaurants$rating,
      pch = 19, col = "navy")
 ```
 
-That's it. For homework, knit your write-up to HTML or PDF and submit the knitted file (and the `.Rmd` if asked).
+That's it. For homework, submit a professionally compiled PDF on Populi (for example, knit to PDF from this file).

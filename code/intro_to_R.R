@@ -95,7 +95,7 @@ barplot(table(students$major),
         col = c("red", "green", "blue"))
 
 # ============================================================================
-# 6. INTERESTING EXAMPLE: SIMULATING COIN FLIPS
+# 6.  SIMULATING COIN FLIPS
 # ============================================================================
 
 # Simulate 100 coin flips
@@ -110,7 +110,7 @@ many_flips <- sample(c("Heads", "Tails"), size = 10000, replace = TRUE)
 mean(many_flips == "Heads")  # Should be close to 0.5!
 
 # ============================================================================
-# 7. INTERESTING EXAMPLE: ROLLING DICE
+# 7.  ROLLING DICE
 # ============================================================================
 
 # Roll a die 100 times
@@ -133,7 +133,7 @@ hist(sums, breaks = 2:12,
      col = "lightgreen")
 
 # ============================================================================
-# 8. INTERESTING EXAMPLE: STUDENT PERFORMANCE
+# 8.  STUDENT PERFORMANCE
 # ============================================================================
 
 # Create data on study hours and exam scores
@@ -154,7 +154,7 @@ abline(lm(exam_scores ~ study_hours), col = "red", lwd = 2)
 cor(study_hours, exam_scores)
 
 # ============================================================================
-# 9. INTERESTING EXAMPLE: AUSTIN RESTAURANT RATINGS
+# 9.  AUSTIN RESTAURANT RATINGS
 # ============================================================================
 
 # Load the Austin restaurants data
