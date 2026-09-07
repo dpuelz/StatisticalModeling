@@ -120,7 +120,7 @@ Readings:
 
 ### (1) Inference for Regression and Multiple Regression
 
-Slides: *coming soon*
+Slides: [linear-regression-simple-and-inference.pdf](slides/linear-regression-simple-and-inference.pdf)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
