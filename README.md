@@ -122,6 +122,8 @@ Readings:
 
 Slides: [linear-regression-simple-and-inference.pdf](slides/linear-regression-simple-and-inference.pdf)
 
+Slides: [multiple-regression.pdf](slides/multiple-regression.pdf)
+
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
 - _Mastering 'Metrics_ (MM) -- Chapter 2
