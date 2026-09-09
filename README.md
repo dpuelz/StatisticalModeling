@@ -124,6 +124,9 @@ Slides: [linear-regression-simple-and-inference.pdf](slides/linear-regression-si
 
 Slides: [multiple-regression.pdf](slides/multiple-regression.pdf)
 
+Code for class:
+- [Covariance and Correlation](code/covariance_correlation.R) (covariance as signed rectangle areas, why units force us to standardize, and Anscombe's quartet)
+
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.1-3.2
 - _Mastering 'Metrics_ (MM) -- Chapter 2
