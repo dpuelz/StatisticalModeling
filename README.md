@@ -36,10 +36,10 @@ There will be 5 homework assignments, submitted via Populi as a professionally c
 | Homework | Due | |
 |---|---|---|
 | [Homework 1](assignments/HW1.pdf) | Friday, Sep 11 | Data: [drone\_strikes\_venezuela.csv](data/drone_strikes_venezuela.csv), [stock\_returns.csv](data/stock_returns.csv) |
-| Homework 2 | Friday, Sep 25 | *coming soon* |
-| Homework 3 | Friday, Oct 9 | *coming soon* |
-| Homework 4 | Friday, Oct 23 | *coming soon* |
-| Homework 5 | Friday, Nov 6 | *coming soon* |
+| [Homework 2](assignments/HW2.pdf) | Sunday, Sep 27, 5:00p | Data: [beer-demand.csv](data/beer-demand.csv) |
+| Homework 3 | Sunday, Oct 11, 5:00p | *coming soon* |
+| Homework 4 | Sunday, Oct 25, 5:00p | *coming soon* |
+| Homework 5 | Sunday, Nov 8, 5:00p | *coming soon* |
 
 ### Homework Rubric
 
@@ -77,7 +77,7 @@ You will need a local download of R to run our example code and for your assignm
 
 ## Course Cadence
 
-There will be 5 quizzes and 5 homework assignments. The quizzes will be on the Fridays of weeks 2, 4, 6, 8, and 10. The homeworks will be due at the start of class on the same Fridays as the quizzes -- 11:30a for Section 1, 10:00a for Section 2. The quiz content will be related to the homework, and we will mark up the quizzes in class directly after finishing the quiz. We will have a final exam during the scheduled exam time (on week 11 of the course).
+There will be 5 quizzes and 5 homework assignments. The quizzes will be on the Fridays of weeks 2, 4, 6, 8, and 10. The homeworks will be due at 5:00p on the Sunday following each quiz. The quiz content will be related to the homework, and we will mark up the quizzes in class directly after finishing the quiz. We will have a final exam during the scheduled exam time (on week 11 of the course).
 
 ## Rough Schedule
 
