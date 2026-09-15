@@ -14,7 +14,7 @@
 set.seed(42)
 n <- 200
 netflix_hours <- runif(n, 0, 30)                       # hours per week
-body_fat <- 15 + 0.4 * netflix_hours + rnorm(n, 0, 3)  # percent
+body_fat <- 15 + -0.6 * netflix_hours + rnorm(n, 0, 3)  # percent
 body_fat <- pmax(5, pmin(40, body_fat))                # keep it plausible
 
 x <- netflix_hours
@@ -42,7 +42,7 @@ my_cov
 cov(x, y)        # R agrees
 
 # Look at a few points to see what the product is doing.
-head(data.frame(x, y, dx, dy, products))
+round(head(data.frame(x, y, dx, dy, products)),2)
 
 # The sign is the whole story:
 #   above-average x AND above-average y  -> (+)(+) = positive
@@ -59,7 +59,7 @@ head(data.frame(x, y, dx, dy, products))
 # 200 rectangles is soup, so draw a random 12 of them.
 
 set.seed(1)
-i <- sample(n, 12)
+i <- sample(n, 100)
 
 plot(dx[i], dy[i], type = "n",
      xlab = "Netflix hours - mean", ylab = "Body fat - mean",

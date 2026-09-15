@@ -23,6 +23,7 @@ x + y
 
 # Create vectors
 ages <- c(18, 19, 20, 21, 22, 23, 24, 25)
+ages <- 18:25
 heights <- c(65, 67, 68, 70, 72, 69, 71, 73)  # inches
 
 # Basic operations on vectors
