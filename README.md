@@ -133,7 +133,12 @@ Readings:
 
 ### (2) Categorical Predictors and Interactions
 
-Slides: *coming soon*
+Slides: [categorical-predictors.pdf](slides/categorical-predictors.pdf)
+
+Slides: [interactions.pdf](slides/interactions.pdf)
+
+Code for class:
+- [Interactions example](code/interactions_example.R) (does the link between two tech stocks depend on the market? an AMZN x SPY interaction on GOOGL returns, using [stock\_returns.csv](data/stock_returns.csv))
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
