@@ -140,6 +140,8 @@ Slides: [interactions.pdf](slides/interactions.pdf)
 Code for class:
 - [Interactions example](code/interactions_example.R) (does the link between two tech stocks depend on the market? an AMZN x SPY interaction on GOOGL returns, using [stock\_returns.csv](data/stock_returns.csv))
 
+Data used in the slides: [pretty\_profs.csv](data/pretty-profs.csv) (student evaluations and beauty ratings), [nba.csv](data/nba.csv) (team 3-point attempts and points)
+
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3.3
 
