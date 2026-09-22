@@ -147,7 +147,9 @@ Readings:
 
 ### (3) Assumptions, Diagnostics, and Nonlinear Regression
 
-Slides: *coming soon*
+Slides: [regression-assumptions-and-data-cleaning.pdf](slides/regression-assumptions-and-data-cleaning.pdf)
+
+Data used in the slides: [colleges.csv](data/colleges.csv) (graduation rates, SAT scores, and tuition -- the running example for data cleaning and the four regression assumptions)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3, 7.1
