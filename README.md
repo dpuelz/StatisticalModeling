@@ -149,7 +149,9 @@ Readings:
 
 Slides: [regression-assumptions-and-data-cleaning.pdf](slides/regression-assumptions-and-data-cleaning.pdf)
 
-Data used in the slides: [colleges.csv](data/colleges.csv) (graduation rates, SAT scores, and tuition -- the running example for data cleaning and the four regression assumptions)
+Slides: [modeling-nonlinear-relationships.pdf](slides/modeling-nonlinear-relationships.pdf)
+
+Data used in the slides: [colleges.csv](data/colleges.csv) (graduation rates, SAT scores, and tuition -- the running example for data cleaning and the four regression assumptions), [utilities.csv](data/utilities.csv) (daily utility spend vs. outside temperature -- the polynomial example), [moores-law.csv](data/moores-law.csv) (transistor counts over time -- the log-linear example), [beer-demand.csv](data/beer-demand.csv) (price and quantity by pack size -- the log-log elasticity example)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 3.3, 7.1
