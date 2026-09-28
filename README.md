@@ -151,6 +151,8 @@ Slides: [regression-assumptions-and-data-cleaning.pdf](slides/regression-assumpt
 
 Slides: [modeling-nonlinear-relationships.pdf](slides/modeling-nonlinear-relationships.pdf)
 
+Supplemental: [Slope Interpretations in the Presence of Logs](slides/log_slope_derivations.pdf) (derivations for the log-linear, linear-log, and log-log coefficient interpretations)
+
 Data used in the slides: [colleges.csv](data/colleges.csv) (graduation rates, SAT scores, and tuition -- the running example for data cleaning and the four regression assumptions), [utilities.csv](data/utilities.csv) (daily utility spend vs. outside temperature -- the polynomial example), [moores-law.csv](data/moores-law.csv) (transistor counts over time -- the log-linear example), [beer-demand.csv](data/beer-demand.csv) (price and quantity by pack size -- the log-log elasticity example)
 
 Code for class:
