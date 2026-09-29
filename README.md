@@ -37,7 +37,7 @@ There will be 5 homework assignments, submitted via Populi as a professionally c
 |---|---|---|
 | [Homework 1](assignments/HW1.pdf) | Friday, Sep 11 | Data: [drone\_strikes\_venezuela.csv](data/drone_strikes_venezuela.csv), [stock\_returns.csv](data/stock_returns.csv) |
 | [Homework 2](assignments/HW2.pdf) | Sunday, Sep 27, 5:00p | Data: [beer-demand.csv](data/beer-demand.csv) |
-| [Homework 3](assignments/HW3.pdf) | Sunday, Oct 18, 5:00p | Data: [airline\_passengers.csv](data/airline_passengers.csv), [daily\_temperature.csv](data/daily_temperature.csv), [noisy\_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt) |
+| [Homework 3](assignments/HW3.pdf) | Sunday, Oct 11, 5:00p | Data: [airline\_passengers.csv](data/airline_passengers.csv), [daily\_temperature.csv](data/daily_temperature.csv), [noisy\_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt) |
 | Homework 4 | Sunday, Oct 25, 5:00p | *coming soon* |
 | Homework 5 | Sunday, Nov 8, 5:00p | *coming soon* |
 
