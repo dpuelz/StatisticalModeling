@@ -1,0 +1,353 @@
+sector,company,CEO,pay1997,pay1996,stock_owned,stock_return
+Basic Materials,Air Products,Harold A. Wagner,15766.5,7631.4,6989.3,0.446
+Basic Materials,Alcoa,Paul H. O'Neill,15112.3,14729.3,15166.2,0.119
+Basic Materials,Armco,James F. Will,2984.8,559.2,5191.4,0.197
+Basic Materials,Asarco,Richard de J. Osborne,2619.3,1973.9,3015.1,-0.073
+Basic Materials,Avery Dennison,Charles D. Miller,49416.2,38366.6,12321.7,0.287
+Basic Materials,Bethlehem Steel,Curtis H. Barnette,1369.6,1157.7,887.5,-0.21
+Basic Materials,Boise Cascade,George J. Harad,5300.9,3606.1,328.5,-0.03
+Basic Materials,Cabot,Samuel W. Bodman,5644,9359.9,29034.7,-0.018
+Basic Materials,Commercial Metals,Stanley A. Rabin,1714.1,1534.6,5183.4,0.039
+Basic Materials,Consolidated Papers,Gorton M. Evans,705,,609.6,0.121
+Basic Materials,Cyprus Amax Minerals,Milton H. Ward,3309.2,,6642.3,-0.322
+Basic Materials,Dow Chemical,William S. Stavropoulos,20844.6,9347.4,6404.5,0.344
+Basic Materials,DuPont,John A. Krol,39620.5,22035.9,12194.3,0.304
+Basic Materials,Ethyl,Bruce C. Gottwald,845,970.1,41876.8,-0.15
+Basic Materials,Fort James,Miles L. Marsh,10535.4,6917.5,11394.9,0.174
+Basic Materials,Georgia Pacific,Alston D. Correll,3800.5,1050.2,8032.7,0.221
+Basic Materials,Goodrich (B.F.),David L. Burner,5435.3,,2167.3,0.051
+Basic Materials,Hanna (M.A.),Douglas J. McGregor,7018.8,,3663.4,0.175
+Basic Materials,Hercules,R. Keith Elliott,16329.5,,12069.1,0.182
+Basic Materials,International Paper,John T. Dillon,5076,,12956,0.088
+Basic Materials,Kimberly-Clark,Wayne R. Sanders,25534.6,27967.8,10665.5,0.056
+Basic Materials,LTV,David H. Hong,947,915.9,952.6,-0.16
+Basic Materials,Louisiana-Pacific,Mark A. Suwyn,830,4853.8,2561.3,-0.076
+Basic Materials,Lubrizol,W.G. Bares,3320.4,1495,4555,0.221
+Basic Materials,Mallinckrodt,C. Ray Holman,5956.3,2990.1,5248.7,-0.007
+Basic Materials,Mead,Jerome F. Tatar,1805.6,,3447.2,-0.018
+Basic Materials,Monsanto,Robert B. Shapiro,79206.7,,47380.8,0.201
+Basic Materials,Morton International,S. Jay Stewart,15769.8,13594.7,7923.4,0.13
+Basic Materials,Nalco Chemical,Edward J. Mooney,3899.5,2307.4,1693,0.124
+Basic Materials,Nucor,John D. Correnti,1256.9,,2139.1,-0.045
+Basic Materials,Olin,Donal W. Griffin,6569,,2591.3,0.345
+Basic Materials,Phelps Dodge,Douglas C. Yearly,7350.2,6347.3,7039.1,-0.053
+Basic Materials,Potlatch,John M. Richards,1054,1227,1167.1,0.038
+Basic Materials,Praxair, H. William Lichtenberger,21977.7,35562.6,9710.6,-0.016
+Basic Materials,Reynolds Metals,Jeremiah J. Sheehan,2822.6,,533.2,0.088
+Basic Materials,Rohm & Haas,J. Lawrence Wilson,7540.6,5520.2,7792.8,0.198
+Basic Materials,Sherwin-Williams,John G. Breen,4386.1,4588,22647,0.005
+Basic Materials,TXI Corp.,Robert D. Rogers,4928.3,7268.9,7929.7,-0.226
+Basic Materials,Union Camp,W. Craig McClelland,3705.8,1749.7,2350.9,0.163
+Basic Materials,Union Carbide,William H. Joyce,13553.5,11574.3,13880.9,0.068
+Basic Materials,Westvaco,John A. Luke Jr,5076.9,3221.4,6057.1,0.186
+Basic Materials,Weyerhaeuser,Steven R. Rogel,35.6,,0,0.07
+Basic Materials,Willamette Industries,William Swindells,4149.4,,186895.6,-0.059
+Basic Materials,Witco,E. Gary Cook,9818,,4235.5,0.377
+Energy,Amerada Hess,John B. Hess,4207.3,1509.6,17675.1,-0.042
+Energy,Amoco,H. Laurance Fuller,22989.9,21053,7536.3,0.089
+Energy,Ashland,Paul W. Chellgren,11382,,6979.7,0.4
+Energy,Atlantic Richfield,Mike R. Bowlin,16406.2,8340.7,8286.4,0.257
+Energy,Baker Hughes,Max L. Lukens,7544.8,,6482.9,0.46
+Energy,Chevron,Kenneth T. Derr,28542.5,18296.5,10238.3,0.222
+Energy,Coastal,David A. Arledge,13819.1,9663.7,1362.1,0.277
+Energy,Dresser Industries,William E. Bradford,7562,3828.9,6970.3,0.303
+Energy,Enron,Kenneth L. Lay,33043.8,,38521.5,-0.014
+Energy,Exxon,Lee R. Raymond,93261.8,57604.6,21336.4,0.284
+Energy,Fina,Ron W. Haddock,990,869.9,938.5,0.391
+Energy,Kerr-McGee,Luke R. Corbett,2794.6,,1657.7,-0.096
+Energy,Mobil,Lucio A. Noto,23226.5,14223.2,9582.6,0.217
+Energy,Occidental,Ray R. Irani,18092.1,7741.6,24647.7,0.303
+Energy,Pennzoil,James L. Pate,8704.1,4748.6,1904.7,0.201
+Energy,Phillips Petroleum,W.W. Allen,11326.4,9163.8,12382.9,0.133
+Energy,Sonat,Ronald L. Kuehn Jr.,15689.6,22871.1,9801.9,-0.092
+Energy,Sun Co.,Robert H. Campbell,8969,699.1,2190.3,0.778
+Energy,Texaco,Peter I. Bijur,6649.4,,10936.2,0.144
+Energy,USX,Thomas J. Usher,5907.5,2842.9,2780.2,0.449
+Industrial,AMP,William J. Hudson Jr.,5949.1,4225.2,5875.2,0.12
+Industrial,Aeroquip-Vickers,Darryl F. Allen,7807.3,3808.4,3799.5,0.373
+Industrial,AlliedSignal,Lawrence A. Bossidy,115875.3,90882.6,34721.4,0.174
+Industrial,Armstrong,George A. Lorch,8966.1,6535.1,6548.7,0.103
+Industrial,Ball,George A. Sissel,3569.3,935.6,1443.4,0.374
+Industrial,Briggs & Stratton,Fredrick P. Stratton Jr.,2788.5,1188.6,25500.5,0.246
+Industrial,Browning-Ferris,Bruce E. Ranck,9846.6,,4168.4,0.557
+Industrial,Burlington Northern,Robert D. Krebs,21244.8,21947.1,28597.3,0.091
+Industrial,CNF Transportatio,Donald E. Moffitt,21684.4,6333.1,2030,0.763
+Industrial,CSX,John W. Snow,37519.1,21137.5,64601.3,0.305
+Industrial,Caterpillar,Donald V. Fites,23927,14778.9,7970.7,0.314
+Industrial,Cooper Industries,H. John Riley Jr.,2585.3,1729.3,4585.7,0.195
+Industrial,Crown Cork & Seal,William L. Davis,6661.4,8595.4,4431.1,-0.06
+Industrial,Cummins Engine,James A. Henderson,4575.9,2648.1,6605.3,0.306
+Industrial,Deere,Hans W. Becherer,14417.9,9067.9,11404.8,0.283
+Industrial,Donnelley (R.R),William L. Davis,14239.6,,11778.4,0.214
+Industrial,Dover,Thomas L. Reece,10115,7377.8,8354.3,0.448
+Industrial,Eaton,Stephen R. Hardis,15993.8,7306.4,4914.6,0.306
+Industrial,Emerson Electric,Charles F. Knight,6089.5,4544.4,84493.6,0.306
+Industrial,Engelhard,Orin R. Smith,3910.7,6464,15282.3,-0.074
+Industrial,FMC,Robert N. Burt,7059.6,7045.5,2029.3,-0.04
+Industrial,Federal Express,Frederick W. Smith,20848.5,10802.3,500731,0.367
+Industrial,Fluor,Leslie G. McCraw,3057.6,11851.2,5705.3,-0.364
+Industrial,Foster Wheeler,Richard J. Swift,630,2045.5,447.9,-0.255
+Industrial,Harnischfeger,Jeffery T. Grade,2621.1,3065.6,23964.8,-0.007
+Industrial,Hillenbrand,W. August Hillenbrand,1400.9,1314.2,161091.3,0.228
+Industrial,Illinios Tool Works,W. James Farrell,22268.8,8428.8,4373.6,0.519
+Industrial,Ingersoll-Rand,James E. Perrella,13665.9,6850.1,5820.3,0.386
+Industrial,Jacobs Engineering,Noel G. Watson,3021,1596.7,5234,0.361
+Industrial,Navistar,John R. Horne,3844.1,679.9,4292.9,1.473
+Industrial,Norfolk Southern,David R. Goode,10101.7,8503.1,8273.9,0.066
+Industrial,Owens-Corning,Glen H. Hiner,2629.5,4729.3,4809.3,-0.194
+Industrial,Owens-Illinois,Joseph H. Lemieux,23100.3,16142.8,16180.8,0.668
+Industrial,PPG Industries,Raymond W. LeBoeuf,5550.8,,6216.4,0.041
+Industrial,Paccar,Mark C. Pigott,4581.9,,24707.3,0.609
+Industrial,Parker-Hannifin,Duane E. Collins,13439.8,5960,6079.7,0.457
+Industrial,Pentair,Winslow H. Buston,7725.3,7435.3,7278.4,0.132
+Industrial,Premark,James M. Ringler,18135.7,,3622.5,0.321
+Industrial,Raychem,Richard A. Kashnow,7612.2,,1876.7,0.041
+Industrial,Ryder System,M. Anthony Burns,10349.1,5021.4,4745.1,0.185
+Industrial,Solectron,Koichi Nishimura,14560.1,4637,10557.8,1.241
+Industrial,Sonoco Products,Charles W. Coker,9016.7,4808.9,35240,0.372
+Industrial,Stanley Works,John M. Trani,25681,,9589,0.781
+Industrial,Tecumseh Products,Todd W. Herrick,448.7,435.6,1070.7,-0.132
+Industrial,Temple-Inland,Clifford J. Grum,1128.1,1526.5,17438.9,-0.012
+Industrial,Tenneco,Dana G. Mead,2261.2,,4083.7,-0.1
+Industrial,Thomas & Betts,Clyde R. Moore,4174.8,,2693.8,0.089
+Industrial,U.S. Industries,David H. Clarke,29420.5,9122.6,23236.7,0.66
+Industrial,Union Pacific,Richard K. Davidson,22400.3,,11513.9,0.07
+Industrial,Waste Management,Robert S. Miller,414.2,,41.6,-0.135
+Industrial,Yellow,A. Maurice Myers,8096.7,,0,0.748
+Cyclical,AMR,Robert L. Crandall,14059.8,5912.4,128.5,0.458
+Cyclical,Arvin,Byron O. Pond,3821.5,2167.6,2720.1,0.381
+Cyclical,Berkshire Hathaway,Warren E. Buffett,100,100,23700074,0.349
+Cyclical,Black & Decker,Nolan D. Archiblad,49007.3,31989.1,13110.5,0.314
+Cyclical,Brunswick,Peter N. Larson,10743.5,5467.4,8013.9,0.284
+Cyclical,CBS,Michael H. Jordan,28438.5,8143.9,1830.2,0.494
+Cyclical,Cardinal Health,Robert D. Walter,12577.5,8656.2,256360.6,0.193
+Cyclical,Cooper Tire & Rubber,Patrick W. Rooney,1118.8,916.3,5700.7,0.254
+Cyclical,Costco,James D. Sinegal,7100.4,812.6,97661.8,0.814
+Cyclical,Dana,Southwood J. Morcott,17045.6,7414.4,5897.9,0.495
+Cyclical,Darden Restuarants,Joe R. Lee,1505.9,4183.1,2819.6,-0.288
+Cyclical,Delta Air Lines,Ronald W. Allen,11175.2,10745.4,3898.8,-0.002
+Cyclical,Disney (Walt),Michael D. Eisner,601230,372971.5,290485,0.283
+Cyclical,Dow Jones,Peter R. Kann,4586.9,1710.3,2624.2,0.621
+Cyclical,Echlin,Larry W. McCurdy,802.1,,111.2,0.248
+Cyclical,Gannett,John J. Curley,48597.4,20557.3,27224.3,0.675
+Cyclical,Genuine Parts,Larry L. Prince,6491.9,4997.6,6841.4,0.178
+Cyclical,Goodyear,Samir G. Gibara,5724.2,3460.8,976.4,0.263
+Cyclical,Harcourt General,Richard A. Smith,1537.5,,735680.8,0.017
+Cyclical,Hartmarx,Elbert O. Hand,2523.4,1136.2,509.4,0.548
+Cyclical,ITT Industries,Travis Engen,32476.1,19985.3,4005.4,0.308
+Cyclical,Johnson Controls,James H. Keyes,12980.3,6722.1,3207.2,0.348
+Cyclical,Kaufman and Broad Home,Bruce Karatz,22191.8,10240.8,3982.3,0.714
+Cyclical,Knight-Ridder,P. Anthony Ridder,12167.4,7455.5,8123.6,0.384
+Cyclical,Kodak,George M.C. Fisher,26070,52349.4,15882.7,-0.227
+Cyclical,Mattel,Jill E. Barad,54290.9,,11729.5,0.354
+Cyclical,McGraw-Hill,Joseph L. Dionne,17849.1,7521.7,23002.8,0.644
+Cyclical,Miller (Herman),Michael A. Volkema,3389,,9245.2,1.34
+Cyclical,New York Times,Russell T. Lewis,4949.7,,103.6,0.763
+Cyclical,Nike,Philip H. Knight,2116.6,1855,5190499.2,0.153
+Cyclical,Nordstrom,John J. Whitacre,1162.6,466.3,267.4,-0.043
+Cyclical,Payless Cashways,David Stanley,650,650,2.4,-0.972
+Cyclical,Reader's Digest,James P. Schadt,850,1545.5,3006.4,-0.286
+Cyclical,Reebok,Paul B. Fireman,29041.5,65853.7,293459.9,-0.314
+Cyclical,Rubbermaid,Wolfgang R. Schmitt,1999.3,2221.4,6847.5,0.132
+Cyclical,Sears Roebuck,Arthur C. Martinez,23206,25278.9,4896.7,0.002
+Cyclical,Service Merchandise,Gary M. Witkin,850.4,,1031.4,-0.485
+Cyclical,Sprigns Industries,Walter Y. Elisha,11645.4,7852.6,4194.3,0.241
+Cyclical,Time Warner,Gerald M. Levin,95638.3,29719.8,26913.3,0.666
+Cyclical,Times Mirror,Mark H. Willes,15978.5,9494.1,5408.2,0.249
+Cyclical,Timken,Joseph F. Toot Jr.,9912.4,4451,2642.4,0.533
+Cyclical,Tribune,John W. Madigan,15770.8,8071,41935.5,0.6
+Cyclical,UAL,Gerald Greenwald,63211.5,34541.8,23268.9,0.48
+Cyclical,US Airways,Stephen M. Wolf,66782.5,,25312.5,1.674
+Cyclical,VF,Mackey J. McDonald,15656.7,7487.7,2832.7,0.404
+Cyclical,Walgreen,Charles R. Walgreen III,31897.2,15110,55313.2,0.656
+Cyclical,Washington Post,Donald E. Graham,1420.3,400,834550.3,0.47
+Cyclical,Wendy's International,Gordon F. Teter,6093.4,5019.3,1410.9,0.187
+Cyclical,Whirlpool,David R. Whitwam,5512.6,2079.4,9583.2,0.21
+Non Cyclical,Abbott Labs,Duane L. Burnham,42731.7,24033.6,44836.6,0.313
+Non Cyclical,American Home Prods.,John R. Stafford,56314.7,48091.1,21587.3,0.336
+Non Cyclical,AmeriSource Health,R. David Yost,3958.4,,11170.4,0.313
+Non Cyclical,Anheuser-Busch,August A. Busch III,25665.9,27837.2,111066.3,0.126
+Non Cyclical,Archer-Daniels-Midland,G. Allen Andreas,1788.9,,71229.4,0.303
+Non Cyclical,Avon,James E. Preston,27754,28091.1,6670,0.097
+Non Cyclical,Bausch & Lomb,William M. Carpenter,1729,,2655.5,0.162
+Non Cyclical,Baxter,Vernon R. Loucks Jr.,15803.6,6604.1,28039.1,0.259
+Non Cyclical,Becton Dickinson,Clateo Castellini,24059.1,20082.7,3487,0.094
+Non Cyclical,BestFoods,Charles R. Shoemate,22980.2,10502.8,12460.3,0.414
+Non Cyclical,Bristol-Myers Squibb,Charles A. Heimbold Jr.,168649.7,63164.7,25012.2,0.77
+Non Cyclical,Campbell Soung,Dale F. Morrison,8783.6,,1301.1,0.554
+Non Cyclical,Clorox,G. Craig Sullivan,27754.3,8199.2,3039,0.523
+Non Cyclical,Coca-Cola Co.,M. Douglad Ivester,155685.9,,178967.5,0.279
+Non Cyclical,Coca-Cola Enterprises,Summerfield K. Johnston Jr.,134380.4,60260.3,1024543.5,1.207
+Non Cyclical,Colgate-Palmolive,Reuben Mark,174625.2,67086.1,104656.9,0.622
+Non Cyclical,ConAgra,Philip B. Fletcher,16860.2,8384,36404,0.447
+Non Cyclical,Dean Foods,Howard M. Dean,4380.6,728,13437.2,0.598
+Non Cyclical,Fleming,Robert E. Stauth,2803.4,1110.7,549.2,-0.218
+Non Cyclical,Fortune Brands,Thomas C. Hays,14029.7,8549.5,5621.2,0.137
+Non Cyclical,General Mills,Stephen W. Sanger,20468.4,14029.1,2025.2,0.14
+Non Cyclical,Gillette,Alfred M. Zeien,79244,50862.6,77351.2,0.304
+Non Cyclical,Heinz (H.J.),Anthony J.F. O'Reilly,31240.1,77136,249470.2,0.266
+Non Cyclical,Hershey Foods,Kenneth L. Wolfe,11693.5,7052.8,8868.8,0.438
+Non Cyclical,Hormel,Joel W. Johnson,3033.5,1176.7,511.9,0.303
+Non Cyclical,IBP,Robert L. Peterson,10001.7,10237.2,6826.8,-0.133
+Non Cyclical,IKON,John E. Stuart,7438.4,21813.5,5235.8,-0.366
+Non Cyclical,Johnson & Johnson,Ralph S. Larsen,55902,41937,23891.5,0.343
+Non Cyclical,Kellogg,Arnold G. Langbo,20262.9,,11551,0.545
+Non Cyclical,Lauder (Estee),Leonard A. Lauder,22753.5,13054.2,2742277.3,0.198
+Non Cyclical,Lilly (Eli),Randall L. Tobias,112515.6,44455,20053.5,0.936
+Non Cyclical,Manor Care,Stewart Bainum Jr.,16808.9,22900.4,434580.5,0.159
+Non Cyclical,McCormick,Robert J. Lawless,1165.1,,921.1,0.103
+Non Cyclical,Merck,Raymond V. Gilmartin,59065,35431.9,13954.9,0.355
+Non Cyclical,National Service,James S. Balloun,4718.5,,663.8,0.2
+Non Cyclical,Owens & Minor,G. Gilmer Minor III,1274.9,686.9,8338.4,0.433
+Non Cyclical,PepsiCo,Roger A. Enrico,69201.2,,2681.8,0.365
+Non Cyclical,Pfizer,William C. Steere Jr.,98846.6,46254.8,40274.4,0.819
+Non Cyclical,Pharmacia & Upjohn,Fred Hassan,3592.9,,15646.2,-0.046
+Non Cyclical,Philip Morris,Geoffrey C. Bible,85779.6,57686.3,23395.1,0.248
+Non Cyclical,Procter & Gamble,John E. Pepper,40389.6,19205.7,55364.8,0.585
+Non Cyclical,Quaker Oats,Robert S. Morrison,10649.3,,7367.2,0.364
+Non Cyclical,RJR Nabisco,Steven F. Goldstone,12842.5,5613,8851.9,0.171
+Non Cyclical,Ralston Purina,WIlliam P. Stiritz,45089.6,23218.1,54505.3,0.311
+Non Cyclical,Revlon,George Fellows,4526.9,,299.2,0.182
+Non Cyclical,Safeway,Steven A. Burd,134802.8,86191,9102.9,0.48
+Non Cyclical,Sara Lee,John J. Bryan,14034.5,9013.8,57353.7,0.309
+Non Cyclical,Schering-Plough,Richard Jay Kogan,44075.7,21448,8648.5,0.949
+Non Cyclical,Sysco,Bill M. Lindig,2132.9,1736.9,15978.6,0.084
+Non Cyclical,Tenet Healthcare,Jeffrey C. Barbakow,51911,30899.4,617.4,0.279
+Non Cyclical,Tyson Foods,Leland E. Tollett,2375.6,674.7,72327.9,0.323
+Non Cyclical,U.S. Surgical,Leon C. Hirsch,10193.6,,54888.1,0.252
+Non Cyclical,United Health Care,William W. McGuire,56825.2,45826.8,9406.5,0.105
+Non Cyclical,Universal,Henry H. Harrell,2475.2,1614.6,3110,0.243
+Non Cyclical,Warner-Lambert,Melvin R. Goodes,101229,36544.8,13230.9,0.679
+Non Cyclical,Whitman,Bruce S. Chelberg,6745.5,5324,7777.7,0.16
+Non Cyclical,Winn-Dixie,A. Dano Davis,603.1,753.9,277137,0.083
+Non Cyclical,Wrigley,William Wrigley,1612.1,1545.6,2769794.2,0.438
+Technology,AT&T,C. Michael Armstrong,12830.7,,6458,0.537
+Technology,Allegheny Teledyne,Richard P. SImmons,1918.7,,420023.2,0.152
+Technology,Apple Computer,Steven P. Jobs,0,,0,-0.023
+Technology,Applied Materials,James C. Morgan,30850.9,4984,40806.7,1.525
+Technology,Automatic Data Processing,Arthur F. Weinbach,16487.7,,7882.1,0.229
+Technology,Avnet,Leon Machiz,12159.5,7614,1567.4,0.38
+Technology,Boeing,Philip M. Condit,14210.5,,914.1,-0.071
+Technology,Cisco Systems,John R. Chambers,101053.2,69691.9,34139.1,0.53
+Technology,Compaq Computer,Eckhard Pfeiffer,246967.7,125173.7,7062.5,0.9
+Technology,CompUSA,James F. Halpin,20835.5,15175.2,8357.9,0.26
+Technology,Corning,Roger G. Ackerman,9554.5,,13316.7,-0.035
+Technology,Data General,Ronald L. Skates,34743.7,9960.9,4721,0.902
+Technology,Digital Equipment,Robert B. Palmer,3004.5,5049.6,907.6,-0.215
+Technology,EG&G,John M. Kucharski,2148.8,1925.4,1753,0.063
+Technology,GenCorp,John B. Yasinsky,8780.6,3907.7,2129.1,0.392
+Technology,General Dynamics,Nicholas D. Chabraja,13757.4,,13043.2,0.252
+Technology,General Electric,John F. Welch Jr,222068.8,134914.2,61912.3,0.509
+Technology,General Signal,Michael D. Lockhart,3038.6,3456.9,4469.6,0.01
+Technology,Harris,Phillip W. Farmer,7296.6,,3970.5,0.406
+Technology,Hewlett-Packard,Lewis E. Platt,48451.8,31038.9,21533.9,0.409
+Technology,Honeywell,Michael R. Bonsignore,17234.5,16492.3,8428.8,0.058
+Technology,IBM,Louis V. Gerstner Jr.,158535.7,91533.3,40612.5,0.393
+Technology,Litton,John M. Leonis,7503.7,6852.7,653.9,0.208
+Technology,Lockheed  Martin,Vance D. Coffman,5344.4,,2414.4,0.095
+Technology,MicroAge,Jeffrey D. McKeever,6816.6,5519.5,7572.6,0.1
+Technology,Micron Technology,Steven R. Appleton,18640.9,,4602.4,0.956
+Technology,Microsoft,William H. Gates,591.4,562.7,34228848.7,1.104
+Technology,Minn. Mining & Mfg.,Livio D. DeSimone,11748.8,12953.5,16084.2,0.012
+Technology,Motorola,Christopher B. Galvin,9445.7,,178538.8,-0.059
+Technology,National Semicolnductor,Brian L. Halla,13382.5,,4992.9,0.731
+Technology,Oracle,Lawrence J. Ellison,203799.9,140261.5,6853011.8,0.408
+Technology,Perkin-Emer,Tony L. WHite,11209.7,,5297.4,0.667
+Technology,Pitney Bowes,Michael J. Critelli,8710.8,,7980.5,0.679
+Technology,Rockwell International,Donald R. Beall,35377.7,24181.6,37375.9,0.212
+Technology,SCI Systems,Olin B. King,18749.3,11460.5,67660.3,0.569
+Technology,Seagate,Alan F. Shugart,11787.3,19810.6,25358,0.567
+Technology,Silicon Graphics,Edward R. McCracken,13284.3,34415.3,3426.6,-0.375
+Technology,Sun Microsystems,Scott G. McNealy,105995.1,85411,255948.7,0.264
+Technology,Sundstrand,Robert J. Jenkins,4397.8,2644.5,4657.5,0.201
+Technology,Tektronix,Jerome J. Meyer,6960.8,8766.8,9834.6,0.53
+Technology,Texas Instruments,Thomas J. Englibous,14541.3,,2829.5,0.422
+Technology,TRW,Joseph R. Gorman,28786.9,24129.8,13532.4,0.103
+Technology,Textron,James F. Hardymon,19320.6,12545.8,2283.7,0.348
+Technology,Thiokol,James R. Wilson,8295.7,2658.9,673.3,0.796
+Technology,Unisys,Lawrence A. Weinback,4971.8,,3533.2,1.056
+Technology,United Technologies,George David,85731.1,75467.5,12975,0.117
+Technology,Varian,J. Tracy O'Rourke,38787.4,33265.4,5458.3,0.303
+Technology,Wang,Joseph M. Tucci,12833.9,5115.1,5696.2,0.129
+Technology,Western Digital,Charles A. Haggerty,28049.5,9645.6,9758.2,1.421
+Technology,York International,Robert N. Pokelwaldt,1851.3,4616.7,8446.6,-0.284
+Financial,Aetna,Richard L. Huber,3704.6,,7190.2,-0.11
+Financial,Aflac,Daniel P. Amos,56601.5,50627.5,47633.4,0.207
+Financial,Ahmanson (H.F.),Charles R. Rinehart,31392.5,,5411.8,1.099
+Financial,Alleghany,John J. Burns Jr.,2228.8,2048.5,7522.5,0.37
+Financial,Allstate,Jerry D. Choate,42502.7,18915.3,3762.7,0.584
+Financial,American Express,Harvey Golub,78226.6,45800.1,39331,0.598
+Financial,American General,Robert M. Devlin,10571.4,,9792.8,0.362
+Financial,Aon Corp,Patrick G. Ryan,15940.9,7627.2,1195473.6,0.446
+Financial,Banc One,John B. McCoy,24309.9,14410.1,28627.5,0.303
+Financial,Bank Of New York,Thomas A. Renyi,39822.1,,16547.4,0.753
+Financial,BankAmerica,David Coulter,40954.4,22527.2,7402.5,0.492
+Financial,BankBoston,Charles K. Gifford,21954.8,14986.2,20589,0.5
+Financial,Bankers Trust,Frank N. Newman,20849.1,11430.4,8271.2,0.358
+Financial,Bear Stearns,James E. Cayne,19992,17583.1,139337.8,0.552
+Financial,Chase Manhattan,Walter V. Shipley,66552.2,48156.4,29164.7,0.254
+Financial,Chubb,Dean R. O'Hare,12969.8,6494.6,10485.9,0.432
+Financial,Cigna,Wilson H. Taylor,21129,19278.3,11845.3,0.287
+Financial,Citicorp,John S. Reed,85144.4,100643.5,126658,0.249
+Financial,First Chicago NBD,Verne G. Istock,12861.9,6258.8,22308.6,0.592
+Financial,First Union,Edward E. Crutchfield,32534.2,14188.5,27139.6,0.422
+Financial,Fleet Financial,Terrence Murray,31650.7,15961,17960.7,0.549
+Financial,General Re,Ronald E. Ferguson,13531.5,,18020.2,0.36
+Financial,Golden State Bancorp,Stephen J. Trafton,28392.4,10726.3,34,0.441
+Financial,Golden West,Marion O. Sandler,48382.1,30525,507516.5,0.559
+Financial,,Herbert M. Sandler,44101.2,26487.2,468231.1,0.559
+Financial,Hartford Financial Services,Ramani Ayer,20750.8,,6616.5,0.415
+Financial,Household International,William F. Aldinger,48596.7,25416.7,3968.2,0.404
+Financial,KeyCorp,Robert W. Gillespie,26761.7,14048.1,6217.9,0.443
+Financial,Lehman Brothers,Richard S. Fuld Jr.,47556.7,17791.5,10287.6,0.746
+Financial,Loews,Laurence A. Tisch,2115,1828,1883649.6,0.137
+Financial,,Preston R. Tisch,2112,1825.4,1883649.6,0.137
+Financial,Marsh & McLennan,A.J.C. Smith,26843.2,10167.9,35974.9,0.476
+Financial,Mellon,Frank V. Cahouet,72854.7,32980.9,73435.5,0.758
+Financial,Merrill Lynch,David H. Komansky,117834.2,,39436.4,0.814
+Financial,Morgan (J.P),Douglas A. Warner III,31738.3,26492.7,5757.3,0.195
+Financial,Morgan Stanley Dean Witter,Philip J. Purcell,99262,,67828.7,0.509
+Financial,National City,David A. Daberko,21374.5,11249.7,16688.7,0.512
+Financial,NationsBank,Hugh L. McColl Jr.,4500,4000,48265.6,0.273
+Financial,Norwest,Richard M. Kovacevich,52114.9,18007.9,46430.6,0.82
+Financial,PNC Bank,Thomas H. O'Brien,21672.8,12900.5,24682.9,0.566
+Financial,Paine Webber,Donald B. Marron,49421.7,30966,41508.4,0.872
+Financial,Progressive,Peter B. Lewis,69084,29026.9,1192672.2,0.784
+Financial,Republic New York,Walter H. Weiner,2125.8,2020.7,7099.7,0.424
+Financial,Safeco,Roger H. Eigsti,6253.2,3910.7,5477.7,0.271
+Financial,Schwab (Charles),Charles R. Schwab,85292.5,41364,2032110.1,0.975
+Financial,St. Paul,Douglas W. Leatherdale,17998.3,5120.4,11766.6,0.435
+Financial,SunTrust,James B. Williams,10175.2,9995.3,65097.1,0.472
+Financial,Transamerica,Frank C. Herringer,83729.1,41552.9,15575.7,0.376
+Financial,Travelers Group,Sanford I. Weill,312151.4,195461.1,796207.4,0.799
+Financial,U.S. Bancorp,John F. Grundhofer,44423.6,17305.6,34766.1,0.675
+Financial,USF7G,Norman P. Blake Jr.,15637.4,,2980.1,0.069
+Financial,Unum,James F. Orr III,22375.3,11439.3,16457.2,0.526
+Financial,Wachovia,Leslie M. Baker Jr.,13397.4,5223.2,7116.1,0.473
+Financial,Wells Fargo,Paul Hazen,78658.3,57879.5,74463.1,0.282
+Utilities,Alltel,Joe T. Ford,14326.5,6719.7,23767,0.35
+Utilities,Ameritech,Richard C. Notebaert,28620.9,11201.9,2316.4,0.373
+Utilities,Bell Atlantic,Raymond W. Smith,58916.1,17555.5,8825.2,0.465
+Utilities,BellSouth,F. Duane Ackerman,12950.7,,1114.9,0.435
+Utilities,Carolina Power & Light,William Cavanaugh III,964.2,,558.4,0.223
+Utilities,CINergy,James E. Rogers,7097.2,7249.4,7418.3,0.211
+Utilities,DTE Energy,John E. Lobbia,935.2,723.3,2252.7,0.148
+Utilities,Dominion Resources,Thos. E. Capps,1395.9,1422.9,1911.7,0.184
+Utilities,Edison International,John E. Bryson,9619.7,8907.1,715.8,0.425
+Utilities,Entergy,Edwin Lupberger,1345.8,2029.9,1229.9,0.161
+Utilities,FPL,James L. Broadhead,3269.1,2532.2,9029.5,0.339
+Utilities,FirstEnergy,Willard R. Holland,1056.3,791.8,249.5,0.36
+Utilities,Florida Progress,Richard Korpan,957.8,,954.8,0.296
+Utilities,GPU ,Fred D. Hafer,868.9,,323.7,0.327
+Utilities,GTE,Charles R. Lee,26537.6,26644.2,8065.7,0.199
+Utilities,MidAmerican Energy,Stanley J. Bright,1978.2,,1110.6,0.483
+Utilities,New England Electric,John W. Rowe,1035.5,1195.7,633.7,0.304
+Utilities,PG&E,Robert D. Glynn Jr.,3451.7,,486.7,0.514
+Utilities,PP&L Resources,William F. Hecht,998.4,809.1,1035.4,0.124
+Utilities,PSEG,E. James Ferland,1401.6,1112.4,1678.4,0.264
+Utilities,Pacific Enterprises,Willis B. Wood Jr.,7380.3,4212.5,1150,0.298
+Utilities,PacifiCorp,Frederick W. Buckman,2352.6,1574.7,4849.9,0.401
+Utilities,Peco Energy,Corbin A. McNeil Jr.,1320.8,1138.6,1427.5,0.041
+Utilities,SBC Communications,Edward E. Whitacre Jr.,55623.3,17387.7,20085.7,0.456
+Utilities,Sprint,William T. Esrey,66679.1,,22302.4,0.499
+Utilities,Texax Utilities,Erle Nye,1584.8,1259.8,2052.8,0.079

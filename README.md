@@ -163,7 +163,11 @@ Readings:
 
 ### (4) Time Series Regression
 
-Slides: *coming soon*
+Slides: [time-series-regression.pdf](slides/time-series-regression.pdf)
+
+Slides: [dynamic-linear-models-and-kalman-filter.pdf](slides/dynamic-linear-models-and-kalman-filter.pdf)
+
+Data used in the slides: [apple.csv](data/apple.csv) (quarterly revenue -- trend and seasonality), [ozone.csv](data/ozone.csv) (daily ozone and weather -- autocorrelation), [ceo.csv](data/ceo.csv) (CEO pay in 1996 and 1997 -- lagged predictors), [folgers.csv](data/folgers.csv) (hourly series), [facebook.csv](data/facebook.csv) (monthly prices with lags and logs), [dell.csv](data/dell.csv) (daily Dell and S\&P 500 -- market model)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapter 3 (supplemental)
