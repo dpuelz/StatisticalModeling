@@ -88,11 +88,11 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | 3 | Sep 14 | Categorical predictors and interactions | ISL: Ch 3.3 |
 | 4 | Sep 21 | Assumptions, diagnostics + Nonlinear regression | ISL: Ch 3.3, 7.1 |
 | 5 | Sep 28 | Time series regression | ISL: Ch 3 (supplemental) |
-| 6 | Oct 5 | Logistic regression | ISL: Ch 4.1-4.3 |
-| 7 | Oct 12 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
-| 8 | Oct 19 | Trees, ensembles, and neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
-| 9 | Oct 26 | Causal inference | MM: Ch 1, ISL: Ch 3.2 |
-| 10 | Nov 2 | Causal inference | MM: Ch 3-5 |
+| 6 | Oct 5 | Time series regression: dynamic linear models and the Kalman filter | ISL: Ch 3 (supplemental) |
+| 7 | Oct 12 | Logistic regression | ISL: Ch 4.1-4.3 |
+| 8 | Oct 19 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
+| 9 | Oct 26 | Trees, ensembles, and neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
+| 10 | Nov 2 | Causal inference | MM: Ch 1, 3-5, ISL: Ch 3.2 |
 | 11 | Nov 9 | Last day of instruction Nov 9; **final exams Nov 10-17** | |
 
 Labor Day, Monday September 7, is a university holiday -- Section 1 does not meet that day.
