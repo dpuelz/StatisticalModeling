@@ -176,7 +176,12 @@ Readings:
 
 ### (5) Logistic Regression
 
-Slides: *coming soon*
+Slides: [logistic-regression.pdf](slides/logistic-regression.pdf)
+
+Data used in the slides: [okcupid.csv](data/okcupid.csv) (59,946 public dating profiles -- predicting a user's sex from their height, the running example for odds, the S-curve, and the confusion matrix)
+
+Code for class:
+- [Logistic regression walkthrough](code/logistic_regression_okcupid.R) (why a straight line fails on a yes/no response, odds and log odds, reading `glm` output, accuracy against a baseline, the confusion matrix, and adding a categorical predictor with and without an interaction -- uses [okcupid.csv](data/okcupid.csv))
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
