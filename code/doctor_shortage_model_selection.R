@@ -1,211 +1,142 @@
-# =============================================================================
-# Doctor Shortage Example: Model Selection
-# 
-# This script implements the doctor shortage example from the model selection
-# slides. It demonstrates:
-# - Best subsets regression
-# - Backward stepwise regression  
-# - Training/test set split
-# - Comparing full vs reduced models using RMSE
-# =============================================================================
+# Model Selection Example: Texas physicians per capita
+# Best subsets, backward stepwise, training/test sets, and cross-validation.
+# Uses counties.csv
+#
+# Companion to the slides: model-selection.pdf
 
 library(tidyverse)
-library(leaps)  # for regsubsets()
-library(car)    # for some diagnostic functions
+library(leaps)   # for regsubsets(); install.packages("leaps") if needed
 
-# -----------------------------------------------------------------------------
-# 1. Load and explore the data
-# -----------------------------------------------------------------------------
-# Data from all counties in Texas with 10,000+ residents
-# Goal: Model what factors predict the number of physicians per 10,000 people
-# Outcome: PhysiciansPer10000
-# Predictors: LandArea, PctRural, MedianIncome, Population, PctUnder18,
-#             PctOver65, PctPoverty, PctUninsured, PctSomeCollege, PctUnemployed
-counties <- read.csv("../data/counties.csv")
+# ============================================================================
+# Data Description
+# ============================================================================
+# counties.csv: the 168 Texas counties with 10,000+ residents.
+#   Response:   PhysiciansPer10000 -- physicians per 10,000 people
+#   Predictors: LandArea, PctRural, MedianIncome, Population, PctUnder18,
+#               PctOver65, PctPoverty, PctUninsured, PctSomeCollege,
+#               PctUnemployed
+#
+# Reading the county names in as row names means every formula below can be
+# simply  PhysiciansPer10000 ~ .  (the dot means "every other column").
 
-# -----------------------------------------------------------------------------
+counties <- read.csv("../data/counties.csv", row.names = "County")
+
+dim(counties)
+head(counties)
+
+rmse <- function(actual, predicted) sqrt(mean((actual - predicted)^2))
+
+# ============================================================================
+# 1. R^2 always rewards more predictors
+# ============================================================================
+
+full <- lm(PhysiciansPer10000 ~ ., data = counties)
+summary(full)$r.squared       # with all 10 predictors
+summary(full)$adj.r.squared   # adjusted R^2 charges for each one
+AIC(full)                     # lower is better; only differences matter
+
+# ============================================================================
 # 2. Best subsets regression
-# -----------------------------------------------------------------------------
-# Finds the best model for each number of predictors
-# Uses Adjusted R^2 as the selection criterion
-best_subsets <- regsubsets(PhysiciansPer10000 ~ . - County, data = counties)
+# ============================================================================
 
-# Plot showing Adjusted R^2 for each model size
-plot(best_subsets, scale = "adjr2", col = "orange", 
-     main = "Best Subsets Regression: Adjusted R^2")
+# Fits every possible model and keeps the best one of each size.
+subsets <- regsubsets(PhysiciansPer10000 ~ ., data = counties, nvmax = 10)
+best <- summary(subsets)
 
-# -----------------------------------------------------------------------------
+best$rsq     # R^2 of the best model of each size: it never goes down
+best$adjr2   # adjusted R^2: rises, peaks, then falls
+which.max(best$adjr2)
+
+# Which predictors are in the best model of each size?
+best$which
+
+# The leaps package's own picture of the same table
+plot(subsets, scale = "adjr2")
+
+# ============================================================================
 # 3. Backward stepwise regression
-# -----------------------------------------------------------------------------
-# Start with full model and remove variables to optimize AIC
-full <- lm(PhysiciansPer10000 ~ LandArea + PctRural +
-             MedianIncome + Population + PctUnder18 +
-             PctOver65 + PctPoverty + PctUninsured +
-             PctSomeCollege + PctUnemployed,
-           data = counties)
+# ============================================================================
 
-# Backward stepwise selection (variables removed if they improve AIC)
-# Capture stepwise path by running with trace and extracting AIC values
-stepwise_result <- step(full, direction = "backward", trace = 0)
+# Start from the full model; repeatedly drop the predictor whose removal
+# lowers AIC the most; stop when no removal helps. trace = 1 prints each step.
+step.model <- step(full, trace = 1)
+formula(step.model)
 
-# Extract stepwise path: track AIC at each step through full backward elimination
-aic_path <- numeric()
-model_sizes <- numeric()
-removed_vars <- character()
-current_model <- full
-aic_path[1] <- AIC(current_model)
-model_sizes[1] <- length(coef(current_model)) - 1  # number of predictors
-removed_vars[1] <- "Start (full model)"
+# Note: adjusted R^2 (best subsets) and AIC (stepwise) need not agree on
+# the number of predictors. Different criteria, different answers.
 
-# Continue backward stepwise until only intercept remains
-# Track the path even when AIC increases
-while(TRUE) {
-  current_aic <- AIC(current_model)
-  predictors <- names(coef(current_model))[-1]  # exclude intercept
-  
-  if(length(predictors) == 0) break
-  
-  # Try removing each predictor and see which gives best (lowest) AIC
-  best_aic <- Inf
-  best_model <- NULL
-  removed_var <- NULL
-  
-  for(var in predictors) {
-    # Create formula without this variable
-    if(length(predictors) == 1) {
-      formula_str <- "PhysiciansPer10000 ~ 1"
-    } else {
-      formula_str <- paste("PhysiciansPer10000 ~", 
-                          paste(setdiff(predictors, var), collapse = " + "))
-    }
-    test_model <- lm(as.formula(formula_str), data = counties)
-    test_aic <- AIC(test_model)
-    
-    if(test_aic < best_aic) {
-      best_aic <- test_aic
-      best_model <- test_model
-      removed_var <- var
-    }
-  }
-  
-  # Record this step (even if AIC increased)
-  aic_path <- c(aic_path, best_aic)
-  model_sizes <- c(model_sizes, length(coef(best_model)) - 1)
-  removed_vars <- c(removed_vars, removed_var)
-  current_model <- best_model
-}
-
-# Plot stepwise path showing full trajectory
-par(mfrow = c(1, 1), mar = c(5, 4, 3, 1))
-plot(model_sizes, aic_path, type = "b", 
-     xlab = "Number of Predictors", ylab = "AIC",
-     main = "Backward Stepwise Regression Path\n(Full elimination path)",
-     pch = 16, col = "darkblue", lwd = 2)
-
-# Highlight the minimum AIC point
-min_idx <- which.min(aic_path)
-points(model_sizes[min_idx], aic_path[min_idx], 
-       pch = 21, bg = "red", cex = 1.5, col = "red")
-abline(v = model_sizes[min_idx], lty = 2, col = "red", lwd = 1)
-text(model_sizes[min_idx], max(aic_path), 
-     paste("Min AIC at", model_sizes[min_idx], "predictors"), 
-     pos = 3, col = "red", cex = 0.8)
-grid()
-
-# Reduced model (typically includes: PctRural, PctUnder18, PctOver65, 
-# PctSomeCollege, PctUnemployed)
-reduced <- lm(PhysiciansPer10000 ~ PctRural + PctUnder18 +
-                PctOver65 + PctSomeCollege + PctUnemployed,
-              data = counties)
-
-# -----------------------------------------------------------------------------
+# ============================================================================
 # 4. Training and test sets
-# -----------------------------------------------------------------------------
-# Split data into training (70%) and test (30%) sets
-# n = 168, 30% ≈ 50
-set.seed(42)
-test_cases <- sample(1:nrow(counties), 50)
-test_set <- counties[test_cases, ]
-training_set <- counties[-test_cases, ]
+# ============================================================================
 
-# -----------------------------------------------------------------------------
-# 5. Fit models on training set
-# -----------------------------------------------------------------------------
-# Full model on training set
-full_train <- lm(PhysiciansPer10000 ~ LandArea + PctRural +
-                   MedianIncome + Population + PctUnder18 +
-                   PctOver65 + PctPoverty + PctUninsured +
-                   PctSomeCollege + PctUnemployed,
-                 data = training_set)
+# Hold out 50 counties (about 30%) that the model never sees while fitting.
+set.seed(2026)
+test.cases   <- sample(1:nrow(counties), 50)
+test.set     <- counties[test.cases, ]
+training.set <- counties[-test.cases, ]
 
-# Reduced model on training set
-reduced_train <- lm(PhysiciansPer10000 ~ PctRural + PctUnder18 +
-                      PctOver65 + PctSomeCollege + PctUnemployed,
-                    data = training_set)
+# IMPORTANT: run the variable selection on the TRAINING set too. Choosing
+# variables using all the data and then "testing" on part of it leaks the
+# test set into the model.
+full.train <- lm(PhysiciansPer10000 ~ ., data = training.set)
+step.train <- step(full.train, trace = 0)
 
-# -----------------------------------------------------------------------------
-# 6. Calculate RMSE on training and test sets
-# -----------------------------------------------------------------------------
-# RMSE function
-rmse <- function(actual, predicted) {
-  sqrt(mean((actual - predicted)^2))
-}
+# Training RMSE: the full model always wins here
+rmse(training.set$PhysiciansPer10000, fitted(full.train))
+rmse(training.set$PhysiciansPer10000, fitted(step.train))
 
-# Full model RMSE
-full_train_rmse <- rmse(training_set$PhysiciansPer10000, predict(full_train))
-full_test_rmse <- rmse(test_set$PhysiciansPer10000, predict(full_train, newdata = test_set))
+# Test RMSE: the honest comparison
+rmse(test.set$PhysiciansPer10000, predict(full.train, test.set))
+rmse(test.set$PhysiciansPer10000, predict(step.train, test.set))
 
-# Reduced model RMSE
-reduced_train_rmse <- rmse(training_set$PhysiciansPer10000, predict(reduced_train))
-reduced_test_rmse <- rmse(test_set$PhysiciansPer10000, predict(reduced_train, newdata = test_set))
+# ============================================================================
+# 5. One split is noisy: repeat it 300 times
+# ============================================================================
 
-# Comparison table
-comparison <- data.frame(
-  Model = c("Full model (10 predictors)", "Reduced model (5 predictors)"),
-  Training_RMSE = c(full_train_rmse, reduced_train_rmse),
-  Test_RMSE = c(full_test_rmse, reduced_test_rmse)
-)
+set.seed(1)
+many <- map_dfr(1:300, function(i) {
+  te <- sample(nrow(counties), 50)
+  f  <- lm(PhysiciansPer10000 ~ ., data = counties[-te, ])
+  r  <- step(f, trace = 0)
+  data.frame(full = rmse(counties$PhysiciansPer10000[te], predict(f, counties[te, ])),
+             step = rmse(counties$PhysiciansPer10000[te], predict(r, counties[te, ])))
+})
 
-# The reduced model typically does worse on training set but better on test set
-# This suggests the full model is overfitting the training data
+# How often does the stepwise model beat the full model on the test set?
+mean(many$step < many$full)
 
-# -----------------------------------------------------------------------------
-# 7. Additional diagnostics
-# -----------------------------------------------------------------------------
-# Model statistics for comparison
-full_r2 <- summary(full_train)$r.squared
-full_adj_r2 <- summary(full_train)$adj.r.squared
-full_aic <- AIC(full_train)
+ggplot(many, aes(x = full - step)) +
+  geom_histogram(binwidth = 0.01) +
+  geom_vline(xintercept = 0, colour = "red") +
+  labs(x = "test RMSE of full model minus test RMSE of stepwise model",
+       y = "splits")
 
-reduced_r2 <- summary(reduced_train)$r.squared
-reduced_adj_r2 <- summary(reduced_train)$adj.r.squared
-reduced_aic <- AIC(reduced_train)
+# ============================================================================
+# 6. 10-fold cross-validation
+# ============================================================================
 
-# -----------------------------------------------------------------------------
-# 8. Visualization: Predictions vs Actual
-# -----------------------------------------------------------------------------
-par(mfrow = c(1, 2), mar = c(4, 4, 2, 1))
+# Every county is in the test fold exactly once. Stepwise is re-run inside
+# each fold, so the held-out fold never influences which variables are chosen.
+set.seed(1)
+folds <- sample(rep(1:10, length.out = nrow(counties)))
 
-# Full model predictions
-plot(test_set$PhysiciansPer10000, predict(full_train, newdata = test_set),
-     xlab = "Actual PhysiciansPer10000",
-     ylab = "Predicted PhysiciansPer10000",
-     main = "Full Model (10 predictors)\nTest Set Predictions",
-     pch = 16, col = "steelblue")
-abline(0, 1, col = "red", lwd = 2)
-text(x = min(test_set$PhysiciansPer10000) + 2,
-     y = max(predict(full_train, newdata = test_set)) - 1,
-     labels = paste("RMSE =", round(full_test_rmse, 2)),
-     cex = 0.9)
+cv <- sapply(1:10, function(f) {
+  train <- counties[folds != f, ]
+  test  <- counties[folds == f, ]
+  m     <- lm(PhysiciansPer10000 ~ ., data = train)
+  c(full = rmse(test$PhysiciansPer10000, predict(m, test)),
+    step = rmse(test$PhysiciansPer10000, predict(step(m, trace = 0), test)))
+})
+rowMeans(cv)
 
-# Reduced model predictions
-plot(test_set$PhysiciansPer10000, predict(reduced_train, newdata = test_set),
-     xlab = "Actual PhysiciansPer10000",
-     ylab = "Predicted PhysiciansPer10000",
-     main = "Reduced Model (5 predictors)\nTest Set Predictions",
-     pch = 16, col = "darkgreen")
-abline(0, 1, col = "red", lwd = 2)
-text(x = min(test_set$PhysiciansPer10000) + 2,
-     y = max(predict(reduced_train, newdata = test_set)) - 1,
-     labels = paste("RMSE =", round(reduced_test_rmse, 2)),
-     cex = 0.9)
+# Essentially a tie: with 168 counties and 10 predictors there is little room
+# to overfit. See penalized_regression_counties.R for what happens with 55.
+
+# ============================================================================
+# Try it yourself
+# ============================================================================
+# 1. Run step() with direction = "forward", starting from
+#    lm(PhysiciansPer10000 ~ 1, data = counties) and scope = formula(full).
+#    Does it land on the same model as backward elimination?
+# 2. Change the seed in section 4. Does the test-set winner change?
+# 3. Add PctRural^2 (I(PctRural^2)) to the full model. Does stepwise keep it?

@@ -188,7 +188,15 @@ Readings:
 
 ### (6) Model Selection and Penalized Regression
 
-Slides: *coming soon*
+Slides: [model-selection.pdf](slides/model-selection.pdf)
+
+Slides: [penalized-regression.pdf](slides/penalized-regression.pdf)
+
+Data used in the slides: [counties.csv](data/counties.csv) (the 168 Texas counties with 10,000+ residents -- predicting physicians per 10,000 people from ten county features, the running example for both decks)
+
+Code for class:
+- [Model selection walkthrough](code/doctor_shortage_model_selection.R) (why R² always rewards more predictors, adjusted R² and AIC, best subsets, backward stepwise, and an honest training/test comparison -- including why one random split is too noisy to trust, and 10-fold cross-validation -- uses [counties.csv](data/counties.csv))
+- [Penalized regression walkthrough](code/penalized_regression_counties.R) (OLS overfitting with all 55 main effects and pairwise interactions, ridge and LASSO coefficient paths, choosing λ by cross-validation and the one-standard-error rule, and the showdown where ridge and LASSO beat OLS on new data -- uses [counties.csv](data/counties.csv))
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
