@@ -1,6 +1,17 @@
 library(tidyverse)
 
-apps <- read.csv("../data/dell_med_admissions.csv")
+apps <- read.csv("../data/dell_med_admissions.csv", fileEncoding = "UTF-8-BOM",
+                 na.strings = c("", "[REDACTED]")) %>%
+  filter(!is.na(Admissions_Status)) %>%
+  transmute(cycle = Admissions_Cycle,
+            status = trimws(Admissions_Status),
+            sex = Gender,
+            ethnicity = TMDSASEthnicity,
+            mcat = MCAT2015,
+            gpa_overall = Overall_GPA,
+            gpa_undergrad = Urg_Overall,
+            gpa_undergrad_sci = UrgSci_GPA,
+            gpa_grad = Grad_GPA)
 
 dim(apps)
 head(apps)
