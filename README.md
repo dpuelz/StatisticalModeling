@@ -186,6 +186,8 @@ Code for class:
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
+- [Expert Report of Peter S. Arcidiacono](docs/SFFA%20Report.pdf), _Students for Fair Admissions, Inc. v. Harvard_, No. 14-cv-14176-ADB (D. Mass., filed June 15, 2018) (logistic regression models of Harvard admissions used as evidence in the SFFA case)
+- Arcidiacono, Kinsler, and Ransom, [What the Students for Fair Admissions Cases Reveal About Racial Preferences](docs/Arcidiacono_AF_2022.pdf), NBER Working Paper 29964 (2022)
 
 ### (6) Model Selection and Penalized Regression
 
