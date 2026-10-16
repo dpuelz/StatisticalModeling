@@ -182,6 +182,7 @@ Data used in the slides: [okcupid.csv](data/okcupid.csv) (59,946 public dating p
 
 Code for class:
 - [Logistic regression walkthrough](code/logistic_regression_okcupid.R) (why a straight line fails on a yes/no response, odds and log odds, reading `glm` output, accuracy against a baseline, the confusion matrix, and adding a categorical predictor with and without an interaction -- uses [okcupid.csv](data/okcupid.csv))
+- [In-class exercise: medical school admissions](code/med_school_logistic_exercise.R) (who gets an offer from Dell Med? plotting offer rates, why a straight line fails, MCAT and GPA as predictors, odds ratios and predicted probabilities, thresholds and the confusion matrix, demographic terms and what they can and cannot tell us, and an interaction -- uses [dell\_med\_admissions.csv](data/dell_med_admissions.csv))
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 4.1-4.3
