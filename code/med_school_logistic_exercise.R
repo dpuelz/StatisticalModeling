@@ -29,4 +29,6 @@
 # and tell us how confident you are in your answer.
 
 apps <- read.csv("../data/dell_med_admissions.csv", fileEncoding = "UTF-8-BOM")
+apps$Gender <- relevel(factor(apps$Gender), ref = "Male")
+apps$TMDSASEthnicity <- relevel(factor(apps$TMDSASEthnicity), ref = "Asian")
 
