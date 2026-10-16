@@ -33,13 +33,13 @@ This course trains students to wield data as both a scientific and predictive to
 
 There will be 5 homework assignments, submitted via Populi as a professionally compiled PDF. Each will be posted here as it is released.
 
-| Homework | Due | |
+| Homework | Due | Data |
 |---|---|---|
-| [Homework 1](assignments/HW1.pdf) | Friday, Sep 11 | Data: [drone\_strikes\_venezuela.csv](data/drone_strikes_venezuela.csv), [stock\_returns.csv](data/stock_returns.csv) |
-| [Homework 2](assignments/HW2.pdf) | Sunday, Sep 27, 5:00p | Data: [beer-demand.csv](data/beer-demand.csv) |
-| [Homework 3](assignments/HW3.pdf) | Sunday, Oct 11, 5:00p | Data: [airline\_passengers.csv](data/airline_passengers.csv), [daily\_temperature.csv](data/daily_temperature.csv), [noisy\_prices.csv](data/noisy_prices.csv), [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt) |
-| [Homework 4](assignments/HW4.pdf) | Sunday, Oct 25, 5:00p | Data: [bank-full.csv](data/bank-full.csv), [bank-names.txt](data/bank-names.txt), [Default.csv](data/Default.csv), [greenbuildings.csv](data/greenbuildings.csv), [saratoga\_houses.csv](data/saratoga_houses.csv) |
-| Homework 5 | Sunday, Nov 8, 5:00p | *coming soon* |
+| [Homework&nbsp;1](assignments/HW1.pdf) | Friday,&nbsp;Sep&nbsp;11 | [drone\_strikes\_venezuela.csv](data/drone_strikes_venezuela.csv) · [stock\_returns.csv](data/stock_returns.csv) |
+| [Homework&nbsp;2](assignments/HW2.pdf) | Sunday,&nbsp;Sep&nbsp;27,&nbsp;5:00p | [beer-demand.csv](data/beer-demand.csv) |
+| [Homework&nbsp;3](assignments/HW3.pdf) | Sunday,&nbsp;Oct&nbsp;11,&nbsp;5:00p | [airline\_passengers.csv](data/airline_passengers.csv) · [daily\_temperature.csv](data/daily_temperature.csv) · [noisy\_prices.csv](data/noisy_prices.csv) · [bank-full.csv](data/bank-full.csv) · [bank-names.txt](data/bank-names.txt) |
+| [Homework&nbsp;4](assignments/HW4.pdf) | Sunday,&nbsp;Oct&nbsp;25,&nbsp;5:00p | [bank-full.csv](data/bank-full.csv) · [bank-names.txt](data/bank-names.txt) · [Default.csv](data/Default.csv) · [greenbuildings.csv](data/greenbuildings.csv) · [saratoga\_houses.csv](data/saratoga_houses.csv) |
+| Homework&nbsp;5 | Sunday,&nbsp;Nov&nbsp;8,&nbsp;5:00p | *coming soon* |
 
 ### Homework Rubric
 
