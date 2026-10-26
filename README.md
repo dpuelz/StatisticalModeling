@@ -211,6 +211,8 @@ Slides: [neural-networks.pdf](slides/neural-networks.pdf)
 Code for class:
 - [Basic neural network](code/basic_nn.ipynb) (a PyTorch network fit to a noisy wave, y = 3 sin(x) + x -- the same example as the "hidden neurons are building blocks" slide)
 - [Classification with a neural network](code/classification_nn.ipynb) (an easy and a hard two-class problem, trained with cross-entropy loss)
+- [MNIST digit recognition](code/MNIST.ipynb) (a convolutional network trained to recognize hand-written digits 0--9)
+- [Sequence-to-sequence toy model](code/seq_to_seq_toy.ipynb) (an encoder-decoder network that learns to reverse a word)
 
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 10.1-10.3
