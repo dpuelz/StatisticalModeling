@@ -22,3 +22,8 @@ Icon?
 *.out
 *.toc
 *.synctex.gz
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/

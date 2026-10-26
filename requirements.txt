@@ -1,0 +1,9 @@
+# Python packages for the neural network notebooks in code/
+torch
+torchvision
+numpy
+matplotlib
+seaborn
+tqdm
+nltk
+ipykernel
