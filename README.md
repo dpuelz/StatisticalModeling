@@ -206,10 +206,14 @@ Readings:
 
 ### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
 
-Slides: *coming soon*
+Slides: [neural-networks.pdf](slides/neural-networks.pdf)
+
+Code for class:
+- [Basic neural network](code/basic_nn.ipynb) (a PyTorch network fit to a noisy wave, y = 3 sin(x) + x -- the same example as the "hidden neurons are building blocks" slide)
+- [Classification with a neural network](code/classification_nn.ipynb) (an easy and a hard two-class problem, trained with cross-entropy loss)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 11.1-11.3
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 10.1-10.3
 
 ### (8) Causal Inference
 
