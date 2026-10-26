@@ -91,7 +91,7 @@ There will be 5 quizzes and 5 homework assignments. The quizzes will be on the F
 | 6 | Oct 5 | Time series regression: dynamic linear models and the Kalman filter | ISL: Ch 3 (supplemental) |
 | 7 | Oct 12 | Logistic regression | ISL: Ch 4.1-4.3 |
 | 8 | Oct 19 | Model selection and penalized regression | ISL: Ch 6.1-6.5 |
-| 9 | Oct 26 | Trees, ensembles, and neural networks | ISL: Ch 8.1-8.3, 11.1-11.3 |
+| 9 | Oct 26 | Neural networks and convolutional neural networks | ISL: Ch 10.1-10.3 |
 | 10 | Nov 2 | Causal inference | MM: Ch 1, 3-5, ISL: Ch 3.2 |
 | 11 | Nov 9 | Last day of instruction Nov 9; **final exams Nov 10-17** | |
 
@@ -204,18 +204,19 @@ Code for class:
 Readings:
 - _Introduction to Statistical Learning_ (ISL) -- Chapters 6.1-6.5
 
-### (7) Trees, Ensembles, Neural Networks, and Deep Neural Networks
+### (7) Neural Networks and Convolutional Neural Networks
 
 Slides: [neural-networks.pdf](slides/neural-networks.pdf)
 
 Code for class:
 - [Basic neural network](code/basic_nn.ipynb) (a PyTorch network fit to a noisy wave, y = 3 sin(x) + x -- the same example as the "hidden neurons are building blocks" slide)
 - [Classification with a neural network](code/classification_nn.ipynb) (an easy and a hard two-class problem, trained with cross-entropy loss)
+- [Convolutional neural network on MNIST](code/MNIST.ipynb) (a small CNN trained to recognize handwritten digits 0-9)
 - [MNIST digit recognition](code/MNIST.ipynb) (a convolutional network trained to recognize hand-written digits 0--9)
 - [Sequence-to-sequence toy model](code/seq_to_seq_toy.ipynb) (an encoder-decoder network that learns to reverse a word)
 
 Readings:
-- _Introduction to Statistical Learning_ (ISL) -- Chapters 8.1-8.3, 10.1-10.3
+- _Introduction to Statistical Learning_ (ISL) -- Chapters 10.1-10.3
 
 ### (8) Causal Inference
 
