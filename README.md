@@ -208,10 +208,12 @@ Readings:
 
 Slides: [neural-networks.pdf](slides/neural-networks.pdf)
 
+Supplemental: [Gradient Descent for Least Squares](slides/gd_ols_derivation.pdf) (deriving the gradient of the squared-error loss, showing that setting it to zero gives the OLS normal equations, the update rule, how large the learning rate can be, and why minibatches work)
+
 Code for class:
+- [Gradient descent for linear regression](code/gradient_descent_regression.R) (fits y = b0 + b1 x by full-batch, minibatch, and stochastic gradient descent and compares them with lm(), with the paths drawn on the loss surface and the effect of the learning rate -- the R companion to the handout above)
 - [Basic neural network](code/basic_nn.ipynb) (a PyTorch network fit to a noisy wave, y = 3 sin(x) + x -- the same example as the "hidden neurons are building blocks" slide)
 - [Classification with a neural network](code/classification_nn.ipynb) (an easy and a hard two-class problem, trained with cross-entropy loss)
-- [Convolutional neural network on MNIST](code/MNIST.ipynb) (a small CNN trained to recognize handwritten digits 0-9)
 - [MNIST digit recognition](code/MNIST.ipynb) (a convolutional network trained to recognize hand-written digits 0--9)
 - [Sequence-to-sequence toy model](code/seq_to_seq_toy.ipynb) (an encoder-decoder network that learns to reverse a word)
 
