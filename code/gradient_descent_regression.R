@@ -73,7 +73,7 @@ fit_gd <- function(x, y, batch_size, learning_rate, epochs, start = c(0, 0)) {
 
 set.seed(1)
 mini <- fit_gd(x, y, batch_size = 10, learning_rate = 0.05, epochs = 10)
-tail(mini, 3)
+tail(mini, 50)
 ols
 
 # >> How close did we get? How many steps did it take?
@@ -113,7 +113,7 @@ ggplot(grid, aes(b0, b1)) +
   geom_contour_filled(aes(z = loss), breaks = c(0, 1, 1.5, 2, 3, 5, 8, 12, 18, 30), alpha = 0.8) +
   geom_path(data = paths, colour = "white", linewidth = 0.5) +
   geom_point(data = paths, colour = "white", size = 0.6) +
-  annotate("point", x = ols[1], y = ols[2], shape = 4, size = 3, stroke = 1.5, colour = "black") +
+  geom_point(data = data.frame(b0 = ols[1], b1 = ols[2]), shape = 4, size = 3, stroke = 1.5, colour = "black") +
   facet_wrap(~ method, nrow = 1) +
   scale_fill_brewer(palette = "YlOrRd", direction = -1, name = "MSE") +
   coord_equal() +
