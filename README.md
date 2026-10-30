@@ -39,7 +39,7 @@ There will be 5 homework assignments, submitted via Populi as a professionally c
 | [Homework&nbsp;2](assignments/HW2.pdf) | Sunday,&nbsp;Sep&nbsp;27,&nbsp;5:00p | [beer-demand.csv](data/beer-demand.csv) |
 | [Homework&nbsp;3](assignments/HW3.pdf) | Sunday,&nbsp;Oct&nbsp;11,&nbsp;5:00p | [airline\_passengers.csv](data/airline_passengers.csv) · [daily\_temperature.csv](data/daily_temperature.csv) · [noisy\_prices.csv](data/noisy_prices.csv) · [bank-full.csv](data/bank-full.csv) · [bank-names.txt](data/bank-names.txt) |
 | [Homework&nbsp;4](assignments/HW4.pdf) | Sunday,&nbsp;Oct&nbsp;25,&nbsp;5:00p | [bank-full.csv](data/bank-full.csv) · [bank-names.txt](data/bank-names.txt) · [Default.csv](data/Default.csv) · [greenbuildings.csv](data/greenbuildings.csv) · [saratoga\_houses.csv](data/saratoga_houses.csv) |
-| Homework&nbsp;5 | Sunday,&nbsp;Nov&nbsp;8,&nbsp;5:00p | *coming soon* |
+| [Homework&nbsp;5](assignments/HW5.pdf) | Sunday,&nbsp;Nov&nbsp;8,&nbsp;5:00p | [wine.csv](data/wine.csv) · [HW5\_cnn\_eurosat.ipynb](code/HW5_cnn_eurosat.ipynb) ([open in Colab](https://colab.research.google.com/github/dpuelz/StatisticalModeling/blob/main/code/HW5_cnn_eurosat.ipynb)) · castle data from the `causaldata` R package |
 
 ### Homework Rubric
 
@@ -215,6 +215,7 @@ Code for class:
 - [Basic neural network](code/basic_nn.ipynb) (a PyTorch network fit to a noisy wave, y = 3 sin(x) + x -- the same example as the "hidden neurons are building blocks" slide)
 - [Classification with a neural network](code/classification_nn.ipynb) (an easy and a hard two-class problem, trained with cross-entropy loss)
 - [MNIST digit recognition](code/MNIST.ipynb) (a convolutional network trained to recognize hand-written digits 0--9)
+- [Homework 5 starter: classifying satellite images with a CNN](code/HW5_cnn_eurosat.ipynb) ([open in Colab](https://colab.research.google.com/github/dpuelz/StatisticalModeling/blob/main/code/HW5_cnn_eurosat.ipynb)) (downloads 4 classes of EuroSAT land-use images, trains a small convolutional network in PyTorch)
 - [Sequence-to-sequence toy model](code/seq_to_seq_toy.ipynb) (an encoder-decoder network that learns to reverse a word)
 
 Readings:
