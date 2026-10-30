@@ -223,7 +223,11 @@ Readings:
 
 ### (8) Causal Inference
 
-Slides: *coming soon*
+Slides: [causality.pdf](slides/causality.pdf)
+
+Code for class:
+- [Difference-in-differences](code/DiD.R) (New Jersey vs. Pennsylvania fast-food employment around the 1992 minimum wage increase -- uses [minwage.csv](data/minwage.csv))
+- [Levitt abortion-crime example](code/levitt.R) (estimating a causal effect with many controls: OLS vs. penalized regression -- uses [levitt\_ex.dat](data/levitt_ex.dat))
 
 Readings:
 - _Mastering 'Metrics_ (MM) -- Chapters 1, 3-5
