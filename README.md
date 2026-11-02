@@ -225,6 +225,8 @@ Readings:
 
 Slides: [causality.pdf](slides/causality.pdf)
 
+Difference-in-differences picture: [minwage\_did\_visual.pdf](slides/minwage_did_visual.pdf) (New Jersey vs. Pennsylvania before and after the 1992 minimum wage increase, with New Jersey's parallel-trends counterfactual -- the same estimate as the DiD regression in [DiD.R](code/DiD.R))
+
 Code for class:
 - [Difference-in-differences](code/DiD.R) (New Jersey vs. Pennsylvania fast-food employment around the 1992 minimum wage increase -- uses [minwage.csv](data/minwage.csv))
 - [Levitt abortion-crime example](code/levitt.R) (estimating a causal effect with many controls: OLS vs. penalized regression -- uses [levitt\_ex.dat](data/levitt_ex.dat))
